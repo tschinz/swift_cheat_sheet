@@ -1,6 +1,13 @@
-# Summary
+# Table of Content
 
-* [Basics](basics/README.md)
+* [Basics](01_basics.md)
+
+
+
+---
+
+
+
 * [Arrays](arrays/README.md)
 * [Dictionaries](dictionaries/README.md)
 * [Control Flow](control_flow/README.md)
