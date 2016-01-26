@@ -11,3 +11,11 @@
 // TODO: Write your todo here
 // FIXME: Write your bug here (or fix is directly)
 ```
+
+### Comment Markdown
+```swift
+//: This is Markdown documentation inside the code
+//: # MArkdown Title
+//: [link description](link)
+//: ![image description](image/location.png)
+```
