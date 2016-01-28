@@ -73,7 +73,7 @@ var dict = ["wallis":1, "fribourg":10]
 let rank = dict["bern"] // doesn't exist would be Int! therefore nil
 ```
 
-Use a tuble with `for-in` to enumerate a dictionary
+Use a tuple with `for-in` to enumerate a dictionary
 ```swift
 for (key, value) in dict {
     println("\(key) = \(value)")
