@@ -5,7 +5,7 @@
         "search",
         "-structured-toc",
         "versions",
-        "anchor-navigation",
+        "-anchor-navigation",
         "styles-less",
         "styles-sass"
     ],
