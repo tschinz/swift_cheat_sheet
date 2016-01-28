@@ -12,7 +12,7 @@ It is:
 
 ---
 
-![Swift Icon](cover.jpg)
+![Swift Icon](source/img/swift.png)
 
 Licensing
 ---
