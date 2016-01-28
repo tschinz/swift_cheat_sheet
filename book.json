@@ -1,7 +1,6 @@
 {
     "plugins": [
         "image-captions",
-        "-collapsible-menu",
         "code_tomorrow_scheme",
         "search",
         "structured-toc",
