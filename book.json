@@ -6,8 +6,7 @@
         "structured-toc",
         "versions",
         "-anchor-navigation",
-        "styles-less",
-        "styles-sass"
+        "styles-less"
     ],
     "pluginsConfig": {
         "versions": {
