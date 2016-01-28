@@ -1,7 +1,9 @@
 ## Programming Concepts
 ### MVC
 MVC is a the abbreviation for Model view Controller. It is a Object-Oriented Design Pattern
+
 ![MVC](img/mvc.png)
+
 #### View
 Is only in charge for the GUI. It is the slaves of the Controller. It has limited connection to the Controller
 * action target - It can send an event to the Controller
