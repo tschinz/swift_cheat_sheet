@@ -7,7 +7,7 @@
 ### NSDictionary
 
 ### NSObject
-Base class for all Objective-C casses
+Base class for all Objective-C classes
 
 ### NSNumber
 Generic number-holding class
