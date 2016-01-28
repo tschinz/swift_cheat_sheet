@@ -2,7 +2,8 @@
     "plugins": [
         "image-captions",
         "collapsible-menu",
-        "code_tomorrow_scheme"
+        "code_tomorrow_scheme",
+        "search"
     ],
     "pluginsConfig": {}
 }
