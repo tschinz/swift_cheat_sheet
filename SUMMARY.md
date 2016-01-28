@@ -1,4 +1,4 @@
 # Table of content
 
-* [Outline](book/source/00_outline.md)
-* [Basics](book/source/01_basics.md)
+* [Outline](source/00_outline.md)
+* [Basics](source/01_basics.md)
