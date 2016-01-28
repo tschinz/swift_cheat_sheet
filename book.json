@@ -8,7 +8,8 @@
         "versions",
         "-anchor-navigation",
         "gtoc",
-        "styles-less"
+        "styles-less",
+        "styles-sass"
     ],
     "pluginsConfig": {
         "versions": {
