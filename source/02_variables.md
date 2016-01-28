@@ -40,9 +40,9 @@ switch x {
 ### Array
 List of multidimensional elements of the same type
 ```swift
-var a = Array<String>()
+var arr = Array<String>()
 // ==
-var a = [String]()
+var arr = [String]()
 ```
 
 **Out of bounds**
@@ -61,3 +61,22 @@ for os in os_s {
 ```
 
 ### Dictionary
+Dictionaries are list of values searchable with a key
+```swift
+var dict = Dicrionary<String, Int>()
+// ==
+var dict = [String:Int]()
+```
+
+```swift
+var dict = ["wallis":1, "fribourg":10]
+let rank = dict["bern"] // doesn't exist would be Int! therefore nil
+```
+
+Use a tuble with `for-in` to enumerate a dictionary
+```swift
+for (key, value) in dict {
+    println("\(key) = \(value)")
+}
+```
+
