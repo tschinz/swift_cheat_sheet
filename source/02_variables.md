@@ -46,3 +46,9 @@ var a = [String]()
 ```
 
 **Out of bounds**
+```swift
+let os_s ["Linux",  "Mac", "Windows"]
+let os = os_s[1] // Linux
+let os = os_s[3] // Windows
+let os = os_s[4] // crash index out of bounds
+```
