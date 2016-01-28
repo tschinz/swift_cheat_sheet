@@ -3,7 +3,7 @@
         "image-captions",
         "code_tomorrow_scheme",
         "search",
-        "-structured-toc",
+        "structured-toc",
         "versions",
         "-anchor-navigation",
         "styles-less",
