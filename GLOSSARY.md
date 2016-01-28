@@ -1,4 +1,4 @@
 # Glossary
 
 ## MVC
-Model-View-Controller. This is a often used programming techniqu.
+Model-View-Controller. This is a often used programming technique.
