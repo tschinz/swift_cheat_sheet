@@ -48,9 +48,10 @@ var arr = [String]()
 **Out of bounds**
 ```swift
 let os_s ["Linux",  "Mac", "Windows"]
-let os = os_s[1] // Linux
-let os = os_s[3] // Windows
-let os = os_s[4] // crash index out of bounds
+let os      = os_s[0]     // "Linux"
+let os      = os_s[2]     // "Windows"
+let os      = os_s[3]     // crash index out of bounds
+let some_os = os_s[0...1] // ["Linux", "Mac"]
 ```
 
 **Enumerating and Array**
@@ -81,4 +82,22 @@ for (key, value) in dict {
 ```
 
 ### Range
-A `Range` in Swift
+A `Range` in Swift are just two points of a type.
+Can be represented as:
+```swift
+struct Range <T> {
+    var startIndex: T
+    var endIndex  : T
+}
+```
+| Type   | Range |
+| ---    | ---   |
+| Array  | `Range<Int>` |
+| String | `Range<String.Index>` |
+
+There is a special syntax for defining a range: `...` or `..<`
+```swift
+let array = ["a", "b", "c", "d"]
+let subArray1 = array[2...3] // ["c", "d"]
+let subArray2 = array[2..<3] // ["c"]
+```
