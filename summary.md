@@ -1,27 +1,8 @@
-# Summary
+# Table of content
 
-This is the summary of my book.
+* [First Chapter](chapter1.md)
+
+
 
 * [Introduction](book/source/00_intro.md)
 * [Basics](book/source/01_basics.md)
-
----
-
-
-<!--
-
-* [Arrays](arrays/README.md)
-* [Dictionaries](dictionaries/README.md)
-* [Control Flow](control_flow/README.md)
-* [Functions](functions/README.md)
-* [Closures](closures/README.md)
-* [Classes](classes/README.md)
-* [Enums](enums/README.md)
-* Other
-   * [Protocols](other/protocols.md)
-   * [Extensions](other/extensions.md)
-   * [Operator Overloading](other/operator_overloading.md)
-   * [Generics](other/generics.md)
-   * [Emoji/Unicode support](other/emojiunicode_support.md)
-* [GoodBye](goodbye/README.md)
--->
