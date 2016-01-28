@@ -6,7 +6,8 @@
         "search",
         "structured-toc",
         "versions",
-        "-anchor-navigation"
+        "-anchor-navigation",
+        "autocover"
     ],
     "pluginsConfig": {
         "versions": {
