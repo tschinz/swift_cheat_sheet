@@ -1,7 +1,8 @@
 {
     "plugins": [
         "image-captions",
-        "collapsible-menu"
+        "collapsible-menu",
+        "code_tomorrow_scheme"
     ],
     "pluginsConfig": {}
 }
