@@ -11,7 +11,7 @@ var string_var    = "The answer is \(immutable_var)"
 ```
 
 ### Optional
-An Optional is just en enum.
+An `Optional` is just en enum.
 ```swift
 enum Optional<T> {
     case None
@@ -38,7 +38,7 @@ switch x {
 ```
 
 ### Array
-List of multidimensional elements of the same type
+An `Array` is a list of multidimensional elements of the same type
 ```swift
 var arr = Array<String>()
 // ==
@@ -61,7 +61,7 @@ for os in os_s {
 ```
 
 ### Dictionary
-Dictionaries are list of values searchable with a key
+`Dictionaries` are list of values searchable with a key
 ```swift
 var dict = Dicrionary<String, Int>()
 // ==
@@ -80,3 +80,5 @@ for (key, value) in dict {
 }
 ```
 
+### Range
+A `Range` in Swift
