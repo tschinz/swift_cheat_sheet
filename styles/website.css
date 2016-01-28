@@ -6,5 +6,5 @@ img {
 }
 /* Hide Gitbook Link */
 .gitbook-link {
-    display: none;
+    display: none !important;
 }
