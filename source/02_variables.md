@@ -59,3 +59,5 @@ for os in os_s {
     println("\(os)")
 }
 ```
+
+### Dictionary
