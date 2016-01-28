@@ -7,5 +7,10 @@
         "structured-toc",
         "versions"
     ],
-    "pluginsConfig": {}
+    "pluginsConfig": {
+        "versions": {
+            "type": "branches",
+            "includeFilepath": false
+        }
+    }
 }
