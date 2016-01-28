@@ -149,7 +149,7 @@ Operator | Purpose
 >>       | Shift Right
 
 ### Overflow and Underflow Operators
-Typically, assigning or incrementing an integer, float, or double past it's range would result in a runtime error. However, if you'd instead prefer to safely truncate the number of available bits, you can opt-in to have the variable overflow or underflow using the following operators:
+Typically, assigning or increment an integer, float, or double past it's range would result in a run-time error. However, if you'd instead prefer to safely truncate the number of available bits, you can opt-in to have the variable overflow or underflow using the following operators:
 
 Operator | Purpose
 :---:    | ---
