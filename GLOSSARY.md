@@ -1,5 +1,4 @@
 # Glossary
 
-## test
-
-test
+## MVC
+Model-View-Controller. This is a often used programming technique-
