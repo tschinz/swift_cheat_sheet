@@ -1,5 +1,11 @@
 /* CSS for website */
+/* Center images */
 img {
     display: block;
     margin: 0 auto;
+}
+/* Hide Gitbook Link */
+.gitbook-link {
+    display: none;
+
 }
