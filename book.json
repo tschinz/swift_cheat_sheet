@@ -3,7 +3,8 @@
         "image-captions",
         "collapsible-menu",
         "code_tomorrow_scheme",
-        "search"
+        "search",
+        "search-pro"
     ],
     "pluginsConfig": {}
 }
