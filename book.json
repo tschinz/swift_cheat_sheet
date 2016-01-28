@@ -7,8 +7,7 @@
         "structured-toc",
         "versions",
         "-anchor-navigation",
-        "-autocover",
-        "toc"
+        "-autocover"
     ],
     "pluginsConfig": {
         "versions": {
