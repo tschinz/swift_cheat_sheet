@@ -12,7 +12,7 @@ It is:
 
 ---
 
-![Swift Icon](swift.png)
+![Swift Icon](cover.jpg)
 
 [Table of Content](summary.md)
 
