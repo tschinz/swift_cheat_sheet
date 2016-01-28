@@ -52,3 +52,10 @@ let os = os_s[1] // Linux
 let os = os_s[3] // Windows
 let os = os_s[4] // crash index out of bounds
 ```
+
+**Enumerating and Array**
+```swift
+for os in os_s {
+    println("\(os)")
+}
+```
