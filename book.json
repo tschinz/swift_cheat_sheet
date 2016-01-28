@@ -7,7 +7,6 @@
         "structured-toc",
         "versions",
         "-anchor-navigation",
-        "gtoc",
         "styles-less",
         "styles-sass"
     ],
