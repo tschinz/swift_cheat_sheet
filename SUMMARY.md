@@ -2,3 +2,4 @@
 
 * [Outline](source/00_outline.md)
 * [Basics](source/01_basics.md)
+* [Basics](source/02_variables.md)
