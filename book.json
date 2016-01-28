@@ -5,7 +5,8 @@
         "code_tomorrow_scheme",
         "search",
         "structured-toc",
-        "versions"
+        "versions",
+        "anchor-navigation"
     ],
     "pluginsConfig": {
         "versions": {
