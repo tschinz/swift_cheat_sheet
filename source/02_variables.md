@@ -47,6 +47,7 @@ var arr = [String]()
 
 **Out of bounds**
 ```swift
+//             0       1          2
 let os_s ["Linux",  "Mac", "Windows"]
 let os      = os_s[0]     // "Linux"
 let os      = os_s[2]     // "Windows"
@@ -97,7 +98,13 @@ struct Range <T> {
 
 There is a special syntax for defining a range: `...` or `..<`
 ```swift
+//            0    1    2    3
 let array = ["a", "b", "c", "d"]
 let subArray1 = array[2...3] // ["c", "d"]
 let subArray2 = array[2..<3] // ["c"]
+```
+
+Range is also enumerable
+```swift
+for in 24...42 {}
 ```
