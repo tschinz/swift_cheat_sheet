@@ -1,8 +1,3 @@
 {
-    "plugins": [
-        "atoc",
-        "autocover",
-        "code_tomorrow_scheme"
-    ],
-    "pluginsConfig": {}
+
 }
