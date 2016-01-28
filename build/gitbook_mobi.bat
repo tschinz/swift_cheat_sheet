@@ -1,0 +1,3 @@
+cd ..
+gitbook mobi
+pause
