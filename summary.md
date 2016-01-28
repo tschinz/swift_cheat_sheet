@@ -1,13 +1,14 @@
-# Table of Content
+# Summary
 
-* [Introduction](source/00_intro.md)
-* [Basics](source/01_basics.md)
+This is the summary of my book.
 
-
+* [Introduction](book/source/00_intro.md)
+* [Basics](book/source/01_basics.md)
 
 ---
 
 
+<!--
 
 * [Arrays](arrays/README.md)
 * [Dictionaries](dictionaries/README.md)
@@ -23,3 +24,4 @@
    * [Generics](other/generics.md)
    * [Emoji/Unicode support](other/emojiunicode_support.md)
 * [GoodBye](goodbye/README.md)
+-->
