@@ -14,7 +14,7 @@ It is:
 
 ![Swift Icon](swift.png)
 
-[Table of Content](toc.md)
+[Table of Content](summary.md)
 
 Licensing
 ---
