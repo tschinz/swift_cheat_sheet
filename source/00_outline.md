@@ -9,3 +9,8 @@
 * Ray Wenderlich [Cheat Sheet](http://www.raywenderlich.com/73967/swift-cheat-sheet-and-quick-reference)
 * iwasrobbed [Cheat Sheet](https://github.com/iwasrobbed/Swift-CheatSheet)
 * Mohammad Hossein Mojtahedi [Gitbook Cheat Sheet](https://www.gitbook.com/book/mhm5000/swift-cheat-sheet/)
+
+## Thanks
+Thanks goes to:
+* The makers of [Swift Stub](http://www.swiftstub.com/)
+* All contriburtors
