@@ -2,6 +2,8 @@
 
 ![Swift Logo](img/swift.png)
 
+There is no guarantee that this reference is complete or correct. 
+
 <!-- toc -->
 
 ## Contributor and References
