@@ -35,6 +35,12 @@ var tipString = "24.99"
 var tipDouble = NSString(string: tipString).doubleValue // == 24.99
 ```
 
+### Enums
+enum CollisionType : Int {
+    case Player = 1
+    case Enemy  = 2
+}
+
 ### Optional
 An `Optional` is just en enum.
 ```swift
