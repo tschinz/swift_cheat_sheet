@@ -5,7 +5,7 @@ It is best to let Swift infer the variable type. Many types are Optionals.
 Type will be inferred
 ```swift
 let immutableInferInt  = 42    // a constant
-var mutableInferInt    = 1     // int variable
+var mutableInferDouble = 125e2 // int variable
 var mutableInferFloat  = 1.0   // float variable
 var mutableInferString = "This is a" + " String"
 var mutableInferString = "The answer is \(immutable_var)"
@@ -16,6 +16,13 @@ var mutableDouble   : Double = 1.0
 var mutableInt      : Int    = 1
 let immutableBool   : Bool   = false
 let immutableString : String = "Text" // String is always an optional
+```
+
+### String
+```swift
+let string1 = "one"
+let string2 = "two"
+var combinedString = "\(string1) \(string2)" + " three"
 ```
 
 ### Optional
