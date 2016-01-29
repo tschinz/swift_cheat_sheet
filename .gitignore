@@ -1,3 +1,8 @@
 # Ignored Folders by git
 _book
 node_modules
+
+# Ignored Files by git
+book.pdf
+book.epub
+book.mobi
