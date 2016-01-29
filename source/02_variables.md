@@ -93,7 +93,7 @@ some_os.append("Windows")
 ```
 
 ### Dictionary
-`Dictionaries` are list of values searchable with a key
+`Dictionaries` are list of values search-able with a key
 ```swift
 var dict = Dicrionary<String, Int>()
 // ==
@@ -103,6 +103,7 @@ var dict = [String:Int]()
 ```swift
 var dict = ["wallis":1, "fribourg":10]
 let rank = dict["bern"] // doesn't exist would be Int! therefore nil
+dict["fribourg"] = nil  // delete fribourg
 ```
 
 Use a tuple with `for-in` to enumerate a dictionary
