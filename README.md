@@ -1,8 +1,6 @@
 # [Swift Cheat Sheet by tschinz](http://zawiki.praxis-arbor.ch/doku.php/tschinz:swift)
 
 
----
-
 This is a attempt to create a small easy-to-understand as well as easy-to-use cheat sheet for Swift. Swift is the new programming language of Apple used in all of their devices. 
 It is:
 
