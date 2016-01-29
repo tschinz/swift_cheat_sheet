@@ -6,7 +6,8 @@
         "structured-toc",
         "versions",
         "-anchor-navigation",
-        "include"
+        "include",
+        "github"
     ],
     "pluginsConfig": {
         "versions": {
