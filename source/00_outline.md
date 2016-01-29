@@ -14,6 +14,7 @@ There is no guarantee that this reference is complete or correct. If you want to
 * iwasrobbed [Cheat Sheet](https://github.com/iwasrobbed/Swift-CheatSheet)
 * Mohammad Hossein Mojtahedi [Gitbook Cheat Sheet](https://www.gitbook.com/book/mhm5000/swift-cheat-sheet/)
 * Paul Hegary [Standford iTunesU Class](http://news.stanford.edu/news/2011/november/itunes-apps-class-111511.html)
+* Wayland Bishop [Swift Algorithms and Data Structures](http://waynewbishop.com/swift)
 
 ## Thanks
 Thanks goes to:
