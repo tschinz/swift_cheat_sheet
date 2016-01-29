@@ -7,16 +7,12 @@
         "versions",
         "-anchor-navigation",
         "include",
-        "github",
         "github-buttons"
     ],
     "pluginsConfig": {
         "versions": {
             "type": "branches",
             "includeFilepath": false
-        },
-        "github": {
-            "url": "https://github.com/tschinz/swift_cheat_sheet"
         },
         "github-buttons": {
             "repo": "azu/JavaScript-Plugin-Architecture",
