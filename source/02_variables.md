@@ -37,7 +37,7 @@ var tipDouble = NSString(string: tipString).doubleValue // == 24.99
 
 ### Enums
 ```swift
-enum CollisionType : Int {
+enum CollisionType : Int { // explicitly all Int's
     case Player = 1
     case Enemy  = 2
 }
