@@ -47,7 +47,7 @@ doIt(a:0, b:1) // error first param has no external name
 func doIt(externalName InternalName:Int) -> Int {
     return internalName
 }
-doIt(externalName:0) //
+doIt(externalName:0)
 doIt(0)              // Error no external name given
 
 func doIt(#InternalandImplicitExternalName:Int) -> Int {
