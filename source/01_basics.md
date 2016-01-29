@@ -45,16 +45,12 @@ KVO = Key-Value Observer
 For a complete guide to 64-bit changes, please [see the transition document](https://developer.apple.com/library/mac/documentation/Darwin/Conceptual/64bitPorting/transition/transition.html#//apple_ref/doc/uid/TP40001064-CH207-TPXREF101).
 
 #### Default Swift Types
-| Swift Type | Derivatio Types |
+| Swift Type | Values |
 | ---        | --- |
-| Int        | Int32 |
-|            | Int64 |
-|            | UInt8 |
-|            | UInt16 |
-| Double     |  |
-| Bool       |  |
-| String     |  |
-
+| Int <br>Int32, Int64, UInt8, UInt16        | `100` Dezimal<br> `0b1001` Binary<br> `0o85` Octal<br> `0xFFE3` Hexadezimal |
+| Double     | `3.14159`<br> `1.25e2 = 125.0`<br> `1.25e-2 == 0.0125` |
+| Bool       | `true`<br> `false` |
+| String     | `"This is a String"`<br> `"This is a String including a \(varname)"` |
 
 #### C-Types vs Swift Types
 | C Type             | Swift Type |
