@@ -47,7 +47,7 @@ For a complete guide to 64-bit changes, please [see the transition document](htt
 #### Default Swift Types
 | Swift Type | Values |
 | ---        | --- |
-| Int <br>Int32, Int64, UInt8, UInt16        | `100` Dezimal<br> `0b1001` Binary<br> `0o85` Octal<br> `0xFFE3` Hexadezimal |
+| Int <br>Int32, Int64, UInt8, UInt16        | `100` Dezimal<br> `1_000_000` Dezimal<br>`0b1001` Binary<br> `0o85` Octal<br> `0xFFE3` Hexadezimal |
 | Double     | `3.14159`<br> `1.25e2 = 125.0`<br> `1.25e-2 == 0.0125` |
 | Bool       | `true`<br> `false` |
 | String     | `"This is a String"`<br> `"This is a String including a \(varname)"` |
