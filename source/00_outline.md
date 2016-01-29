@@ -5,7 +5,7 @@
 There is no guarantee that this reference is complete or correct. If you want to contribute or reporting an issue:
 * [Repo](https://github.com/tschinz/swift_cheat_sheet)
 * [Issue](https://github.com/tschinz/swift_cheat_sheet/issues)
-* 
+
 <!-- toc -->
 
 ## Contributor and References
