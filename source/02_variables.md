@@ -70,7 +70,7 @@ var arr = Array<String>()
 var arr = [String]()
 ```
 
-**Out of bounds**
+#### Out of bounds
 ```swift
 //             0       1          2
 let os_s ["Linux",  "Mac", "Windows"]
@@ -80,11 +80,16 @@ let os      = os_s[3]     // crash index out of bounds
 let some_os = os_s[0...1] // ["Linux", "Mac"]
 ```
 
-**Enumerating and Array**
+#### Enumerating and Array
 ```swift
 for os in os_s {
     println("\(os)")
 }
+```
+
+#### Array Functions
+```swift
+some_os.append("Windows")
 ```
 
 ### Dictionary
