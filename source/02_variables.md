@@ -29,10 +29,10 @@ var combinedString = "\(string1) \(string2)" + " three"
 String Conversion
 ```swift
 var tipString = "2499"
-var tipInt = NSString(string: tipString).intValue    // == 2499
+var tipInt = NSString(string: tipString).intValue       // == 2499
 
 var tipString = "24.99"
-var tipInt = NSString(string: tipString).doubleValue // == 24.99
+var tipDouble = NSString(string: tipString).doubleValue // == 24.99
 ```
 
 ### Optional
