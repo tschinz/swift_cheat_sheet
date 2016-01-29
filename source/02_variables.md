@@ -38,8 +38,8 @@ var Double_var = NSString(string: doubleString).doubleValue // == 9.95
 ## Enums
 ```swift
 enum CollisionType : Int { // explicitly all Int's
-    case Player = 1
-    case Enemy  = 2
+    case firstProperty   = 1
+    case secondProperty  = 2
 }
 vat type = CollisionType.Player
 ```
