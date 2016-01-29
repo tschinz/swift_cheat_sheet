@@ -33,11 +33,23 @@ func doIt() -> Int {
 func doIt(a:Int) -> Int {
     return a
 }
+doIt(0)     // return 0
 
 func doIt(a:Int, b:Int) -> (a:Int, b:Int){
     return (a, b)
 }
+doIt(0, b:1)   // returns a tuple (a,b) == (0,1)
+doIt(a:0, b:1) // error first param has no external name
 
+func doIt(externalName InternalName:Int){
+    return internalName
+}
+doIt(externalName:0) //
+doIt(0)              // Error no external name given
+
+func doIt(#InternalandImplicitExternalName:Int)
+
+func doIt(externalName InternalName:Int)
 
 ```
 
