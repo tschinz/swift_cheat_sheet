@@ -19,10 +19,16 @@ let immutableString : String = "Text" // String is always an optional
 ```
 
 ### String
+Combining Strings
 ```swift
 let string1 = "one"
 let string2 = "two"
 var combinedString = "\(string1) \(string2)" + " three"
+```
+
+String Conversion
+```swift
+var tipString = "2499"
 ```
 
 ### Optional
