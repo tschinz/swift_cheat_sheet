@@ -51,7 +51,7 @@ doIt(externalName:0)
 doIt(0)              // Error no external name given
 
 func doIt(#InternalandImplicitExternalName:Int) -> Int {
-    retrun InternalandImplicitExternalName
+    return InternalandImplicitExternalName
 }
 
 func doIt(externalName InternalName:Int)
