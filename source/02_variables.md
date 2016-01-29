@@ -101,14 +101,14 @@ var dict = [String:Int]()
 ```
 
 ```swift
-var dict = ["wallis":1, "fribourg":10]
-let rank = dict["bern"] // doesn't exist would be Int! therefore nil
-dict["fribourg"] = nil  // delete fribourg
+var regions = ["wallis":1, "fribourg":10]
+let rank = regions["bern"] // doesn't exist would be Int! therefore nil
+regions["fribourg"] = nil  // delete fribourg
 ```
 
 Use a tuple with `for-in` to enumerate a dictionary
 ```swift
-for (key, value) in dict {
+for (key, value) in regions {
     println("\(key) = \(value)")
 }
 ```
