@@ -45,7 +45,10 @@ KVO = Key-Value Observer
 For a complete guide to 64-bit changes, please [see the transition document](https://developer.apple.com/library/mac/documentation/Darwin/Conceptual/64bitPorting/transition/transition.html#//apple_ref/doc/uid/TP40001064-CH207-TPXREF101).
 
 #### Default Swift Types
-| Swift Type
+| Swift Type | Derivatio Types |
+| ---        | --- |
+
+
 
 
 #### C-Types vs Swift Types
@@ -64,7 +67,7 @@ For a complete guide to 64-bit changes, please [see the transition document](htt
 | unsigned long long | CUnsignedLongLong |
 | wchar_t            | CWideChar |
 | char16_t           | CChar16 |
-vchar32_t           | CChar32 |
+| vchar32_t          | CChar32 |
 | float              | CFloat |
 | double             | CDouble |
 From the [docs](https://developer.apple.com/library/ios/documentation/swift/conceptual/buildingcocoaapps/InteractingWithCAPIs.html)
