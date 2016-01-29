@@ -44,6 +44,13 @@ enum CollisionType : Int {
 vat type = CollisionType.Player
 ```
 
+```swift
+enum Barcode {
+    case UPCA(Int, Int, Int, Int)
+    case QRCode(String)
+}
+```
+
 ### Optional
 An `Optional` is just en enum.
 ```swift
