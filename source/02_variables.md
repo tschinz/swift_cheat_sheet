@@ -41,7 +41,7 @@ enum enumTypeVar : Int { // explicitly all Int's
     case firstProperty   = 1
     case secondProperty  = 2
 }
-vat type = CollisionType.Player
+vat type = enumTypeVar.firstProperty
 ```
 
 ```swift
