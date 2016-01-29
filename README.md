@@ -13,4 +13,5 @@ It is:
 ![Swift Icon](source/img/swift.png)
 
 
+!INCLUDE "LICENSE.md"
 !INCLUDE "CHANGELOG.md"
