@@ -25,7 +25,7 @@ println("\(myClassObject.myOptionalProperty!)") // nil
 
 
 ### Methods
-Methods in swift can have internal and external names. The first parameter is a littel different, it should be consistend with the method name
+Methods in swift can have internal and external names. The first parameter is a littel different, it should be consistent with the method name.
 ```swift
 func doIt() -> Int {
     return 0
