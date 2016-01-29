@@ -29,10 +29,10 @@ var combinedString = "\(string1) \(string2)" + " three"
 String Conversion
 ```swift
 var intString = "999"
-var intVar = NSString(string: tipString).intValue       // == 999
+var intVar = NSString(string: intString).intValue       // == 999
 
 var doubleString = "9.95"
-var Double_var = NSString(string: tipString).doubleValue // == 9.95
+var Double_var = NSString(string: doubleString).doubleValue // == 9.95
 ```
 
 ## Enums
