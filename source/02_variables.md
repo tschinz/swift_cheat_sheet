@@ -37,7 +37,7 @@ var Double_var = NSString(string: doubleString).doubleValue // == 9.95
 
 ## Enums
 ```swift
-enum enumType : Int { // explicitly all Int's
+enum enumTypeVar : Int { // explicitly all Int's
     case firstProperty   = 1
     case secondProperty  = 2
 }
