@@ -2,7 +2,9 @@
 
 ![Swift Logo](img/swift.png)
 
-There is no guarantee that this reference is complete or correct. 
+There is no guarantee that this reference is complete or correct. If you want to contribute or reporting an issue:
+* [Issue](https://github.com/tschinz/swift_cheat_sheet/issues)
+* 
 
 <!-- toc -->
 
