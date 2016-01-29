@@ -9,6 +9,7 @@
 * Ray Wenderlich [Cheat Sheet](http://www.raywenderlich.com/73967/swift-cheat-sheet-and-quick-reference)
 * iwasrobbed [Cheat Sheet](https://github.com/iwasrobbed/Swift-CheatSheet)
 * Mohammad Hossein Mojtahedi [Gitbook Cheat Sheet](https://www.gitbook.com/book/mhm5000/swift-cheat-sheet/)
+* Paul Hegary (Standford iTunesU Class)[http://news.stanford.edu/news/2011/november/itunes-apps-class-111511.html]
 
 ## Thanks
 Thanks goes to:
