@@ -1,7 +1,7 @@
-## Classes and Methods
+# Classes and Methods
 
-### Class
-#### Creation
+## Class
+### Creation
 ```swift`
 class MyClass : OptionalSuperClass, OptionalProtocol1, OptionalProtocol2 {
     var myProperty         : String
@@ -16,7 +16,7 @@ class MyClass : OptionalSuperClass, OptionalProtocol1, OptionalProtocol2 {
     // More methods
 }
 ```
-#### Usage
+### Usage
 ```swift
 var myClassObject = MyClass()
 println("\(myClassObject.myProperty)")          // "initValue"
@@ -24,7 +24,7 @@ println("\(myClassObject.myOptionalProperty!)") // nil
 ```
 
 
-### Methods
+## Methods
 Methods in swift can have internal and external names. The first parameter is a littel different, it should be consistent with the method name.
 ```swift
 func doIt() -> Int {
