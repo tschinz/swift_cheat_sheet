@@ -2,12 +2,20 @@
 It is best to let Swift infer the variable type. Many types are Optionals.
 
 ### Constants and Variables
+Type will be inferred
 ```swift
-let immutable_var = 42    // a constant
-var int_var       = 1     // int variable
-var float_var     = 1.0   // float variable
-var string_var    = "This is a" + " String"
-var string_var    = "The answer is \(immutable_var)"
+let immutableInferInt  = 42    // a constant
+var mutableInferInt    = 1     // int variable
+var mutableInferFloat  = 1.0   // float variable
+var mutableInferString = "This is a" + " String"
+var mutableInferString = "The answer is \(immutable_var)"
+```
+Type is given specifically
+```swift
+var mutableDouble   : Double = 1.0
+var mutableInt      : Int    = 1
+let immutableBool   : Bool   = false
+let immutableString : String = "Text" // String is always an optional
 ```
 
 ### Optional
