@@ -13,6 +13,9 @@
         "versions": {
             "type": "branches",
             "includeFilepath": false
+        },
+        "github": {
+            "url": "https://github.com/tschinz/swift_cheat_sheet"
         }
     }
 }
