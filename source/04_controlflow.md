@@ -1,6 +1,8 @@
 ## Control Flow
 ### `if` - `else`
 
+### `if` - `let`
+
 ### `switch` - `case`
 
 ### `for` - `in` loop
