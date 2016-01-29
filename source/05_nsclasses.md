@@ -1,21 +1,21 @@
-## NS Classes
+# NS Classes
 
-### NSString
+## NSString
 
-### NSArray
+## NSArray
 
-### NSDictionary
+## NSDictionary
 
-### NSObject
+## NSObject
 Base class for all Objective-C classes
 
-### NSNumber
+## NSNumber
 Generic number-holding class
 
-### NSDate
+## NSDate
 Used to find out the date and time right now or to store past or future dates.
 
-### NSData
+## NSData
 Used to save/restore/transmit raw data.
 
-### NSUserDefaults
+## NSUserDefaults
