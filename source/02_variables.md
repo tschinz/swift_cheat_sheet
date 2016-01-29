@@ -28,11 +28,11 @@ var combinedString = "\(string1) \(string2)" + " three"
 
 String Conversion
 ```swift
-var tipString = "2499"
-var tipInt = NSString(string: tipString).intValue       // == 2499
+var tipString = "999"
+var tipInt = NSString(string: tipString).intValue       // == 999
 
-var tipString = "24.99"
-var tipDouble = NSString(string: tipString).doubleValue // == 24.99
+var tipString = "9.95"
+var tipDouble = NSString(string: tipString).doubleValue // == 9.95
 ```
 
 ## Enums
