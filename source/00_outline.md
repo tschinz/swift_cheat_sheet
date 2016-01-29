@@ -13,4 +13,4 @@
 ## Thanks
 Thanks goes to:
 * The makers of [Swift Stub](http://www.swiftstub.com/)
-* All contriburtors
+* All contributors
