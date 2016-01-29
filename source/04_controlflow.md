@@ -1,14 +1,14 @@
-## Control Flow
-### `if` - `else`
+# Control Flow
+## `if` - `else`
 
-### `if` - `let`
+## `if` - `let`
 
-### `switch` - `case`
+## `switch` - `case`
 
-### `for` - `in` loop
+## `for` - `in` loop
 
-### `while` loop & `repeat` - `while` loop
+## `while` loop & `repeat` - `while` loop
 
-### `continue` & `break` & `fallthrough`
+## `continue` & `break` & `fallthrough`
 
-### `guard`
+## `guard`
