@@ -15,3 +15,6 @@ class MyClass : OptionalSuperClass, OptionalProtocol1, OptionalProtocol2 {
     // More methods
 }
 ```
+
+### Methods
+func
