@@ -18,5 +18,11 @@
         "github": {
             "url": "https://github.com/tschinz/swift_cheat_sheet"
         }
+        "github-buttons": {
+            "repo": "azu/JavaScript-Plugin-Architecture",
+            "types": [
+                "star",
+                "watch"
+      ]
     }
 }
