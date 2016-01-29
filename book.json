@@ -6,20 +6,12 @@
         "structured-toc",
         "versions",
         "-anchor-navigation",
-        "include",
-        "github-buttons"
+        "include"
     ],
     "pluginsConfig": {
         "versions": {
             "type": "branches",
             "includeFilepath": false
-        },
-        "github-buttons": {
-            "repo": "azu/JavaScript-Plugin-Architecture",
-            "types": [
-                "star",
-                "watch"
-            ]
         }
     }
 }
