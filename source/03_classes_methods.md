@@ -53,6 +53,8 @@ doIt(0)              // Error no external name given
 func doIt(#InternalandImplicitExternalName:Int) -> Int {
     return InternalandImplicitExternalName
 }
+doIt(InternalandImplicitExternalName:0)
+
 
 func doIt(externalName InternalName:Int)
 
