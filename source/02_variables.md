@@ -1,7 +1,7 @@
-## Variables
+# Variables
 It is best to let Swift infer the variable type. Many types are Optionals.
 
-### Constants and Variables
+## Constants and Variables
 Type will be inferred
 ```swift
 let immutableInferInt  = 42    // a constant
@@ -18,7 +18,7 @@ let immutableBool   : Bool   = false
 let immutableString : String = "Text" // String is always an optional
 ```
 
-### String
+## String
 Combining Strings
 ```swift
 let string1 = "one"
@@ -35,7 +35,7 @@ var tipString = "24.99"
 var tipDouble = NSString(string: tipString).doubleValue // == 24.99
 ```
 
-### Enums
+## Enums
 ```swift
 enum CollisionType : Int { // explicitly all Int's
     case Player = 1
@@ -51,7 +51,7 @@ enum Barcode {
 }
 ```
 
-### Optional
+## Optional
 An `Optional` is just en enum.
 ```swift
 enum Optional<T> {
@@ -78,7 +78,7 @@ switch x {
 }
 ```
 
-### Array
+## Array
 An `Array` is a list of multidimensional elements of the same type
 ```swift
 var arr = Array<String>()
@@ -86,7 +86,7 @@ var arr = Array<String>()
 var arr = [String]()
 ```
 
-#### Out of bounds
+### Out of bounds
 ```swift
 //             0       1          2
 let os_s ["Linux",  "Mac", "Windows"]
@@ -96,19 +96,19 @@ let os      = os_s[3]     // crash index out of bounds
 let some_os = os_s[0...1] // ["Linux", "Mac"]
 ```
 
-#### Enumerating and Array
+### Enumerating and Array
 ```swift
 for os in os_s {
     println("\(os)")
 }
 ```
 
-#### Array Functions
+### Array Functions
 ```swift
 some_os.append("Windows")
 ```
 
-### Dictionary
+## Dictionary
 `Dictionaries` are list of values search-able with a key
 ```swift
 var dict = Dicrionary<String, Int>()
@@ -129,7 +129,7 @@ for (key, value) in regions {
 }
 ```
 
-### Range
+## Range
 A `Range` in Swift are just two points of a type.
 Can be represented as:
 ```swift
