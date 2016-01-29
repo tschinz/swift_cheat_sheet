@@ -44,7 +44,7 @@ doIt(a:0, b:1) // error first param has no external name
 ```
 
 ```swift
-func doIt(externalName InternalName:Int) -< Int{
+func doIt(externalName InternalName:Int) -> Int {
     return internalName
 }
 doIt(externalName:0) //
