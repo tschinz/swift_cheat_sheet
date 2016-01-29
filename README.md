@@ -1,5 +1,5 @@
-[Swift Cheat Sheet by tschinz](http://zawiki.praxis-arbor.ch/doku.php/tschinz:swift)
-================================
+# [Swift Cheat Sheet by tschinz](http://zawiki.praxis-arbor.ch/doku.php/tschinz:swift)
+
 
 ---
 
