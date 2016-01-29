@@ -6,3 +6,4 @@
 * [Classes and Methods](source/03_classes_methods.md)
 * [Control Flow](source/04_controlflow.md)
 * [NS Classes](source/05_nsclasses.md)
+* [Algorithms](source/10_algorithms.md)
