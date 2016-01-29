@@ -47,8 +47,13 @@ For a complete guide to 64-bit changes, please [see the transition document](htt
 #### Default Swift Types
 | Swift Type | Derivatio Types |
 | ---        | --- |
-
-
+| Int        | Int32 |
+|            | Int64 |
+|            | UInt8 |
+|            | UInt16 |
+| Double     |  |
+| Bool       |  |
+| String     |  |
 
 
 #### C-Types vs Swift Types
