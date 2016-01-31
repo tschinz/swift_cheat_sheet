@@ -18,23 +18,6 @@ let immutableBool   : Bool   = false
 let immutableString : String = "Text" // String is always an optional
 ```
 
-## String
-Combining Strings
-```swift
-let string1 = "one"
-let string2 = "two"
-var combinedString = "\(string1) \(string2)" + " three"
-```
-
-String Conversion
-```swift
-var intString = "999"
-var intVar = NSString(string: intString).intValue           // == 999
-
-var doubleString = "9.95"
-var Double_var = NSString(string: doubleString).doubleValue // == 9.95
-```
-
 ### Property Observer `willSet`& `didSet`
 A property can have two observer functions. They can be used to inform somebody that the variable "will get set" or "did just get set".
 * Can be used to update the GUI
@@ -57,12 +40,29 @@ var userStatusText: String {
 ```swift
 lazy var varName = SomeClass() // Nice if SomeClass uses a lot of resources
 
-lazy var someProperty: Tpye = {
+lazy var someProperty: Type = {
    // construct the value
    return constructed value
 }()
 
 lazy var myProperty = self.initializeMyProperty()
+```
+
+## String
+Combining Strings
+```swift
+let string1 = "one"
+let string2 = "two"
+var combinedString = "\(string1) \(string2)" + " three"
+```
+
+String Conversion
+```swift
+var intString = "999"
+var intVar = NSString(string: intString).intValue           // == 999
+
+var doubleString = "9.95"
+var Double_var = NSString(string: doubleString).doubleValue // == 9.95
 ```
 
 ## Optional
