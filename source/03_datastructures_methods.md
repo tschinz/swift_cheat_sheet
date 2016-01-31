@@ -56,7 +56,6 @@ println("\(myClassObject.myOptionalProperty!)") // nil
 ### `Final`
 With `Final` a `func`or `class` can't be override. It will be the end of the line.
 
-
 # Methods `Func`
 ```swift
 func doIt() -> Int {
@@ -104,3 +103,79 @@ class Classname : SuperClassName {
 
 ## `Final`
 With `Final` a `func`or `class` can't be override. It will be the end of the line.
+
+## `init()` Method
+Two types of `init`
+* designated `init()`
+* `convenience init()`
+
+**Free Inits**
+* If all Properties are initialized
+* `struct`with no initializers will get a default `init`
+
+What **can** be done in an `init`:
+* Set or Reset properties values `var` and even `let`
+* Call other `init` methods `self.init()`
+* Call super classes `init` methods `super.init()`
+
+What **have to** be done in an `init`:
+* After `init()` all properties need to have an value (or `nil`)
+* Designated `init` can only call designated init of its immediate superclass
+* All **own** properties need to be initialized **before** using superclass `init`
+* The superclass `init` nedd to be called **before** inherited properties  can ba assigned
+* `convenience init` can only call designated `init` in it's own class
+* `convenience init` can call other `convenience init` but in the end a designated `init` must be called
+* `convenience init` first call designated `init` before set any property value
+
+### Inherited `init`
+* If no `init` is implemented all superclass `init` are inherited
+* If you override all superclass `init, you'll inherit all its `convenience init`
+* If you implement no `init`, you'll inherit all superclass `init`
+
+### Required `init`
+* A `class` can mark one or more `init` as required
+
+### Failable `init``
+Rare `init` which can return `nil`
+```swift
+init?(){
+    // might return nil
+}
+```
+
+```swift
+# UIImage example
+let image = UIImage(named: "nonExistingName") // image is an Optional UIImage?
+// solution
+if let image= UIImage(named: "nonExistingName"){
+    // image was successfully created
+} else {
+    // couldn't create the image
+}
+```
+
+## Objects
+### Creating Objects
+Calling `init` via the type name
+```swift
+let x = ClassName()
+let y = [String]()
+```
+
+Calling type methods (rare)
+```swift
+let button = UIButton.buttonWithType(UIButtonType.System)
+```
+
+### `AnyObject`
+* Special Type (it is a Protocol) used to compatibility with Objective-C-based API
+```swift
+// As Properties
+var destinationViewController : AnyObject
+var toolbarItems: [AnyObject]
+
+// As Arguments to functions
+func appendDigit(sender: AnyObject)
+func addConstraints(constraints: [AnyObject])
+```
+
