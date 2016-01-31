@@ -6,4 +6,5 @@
 * [Data Structures, Methods, Objects](source/03_datastructures_methods.md)
 * [Control Flow](source/04_controlflow.md)
 * [NS Classes](source/05_nsclasses.md)
+* [Other](source/06_other.md)
 * [Algorithms](source/10_algorithms.md)
