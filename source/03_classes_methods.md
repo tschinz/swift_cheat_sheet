@@ -1,6 +1,36 @@
-# Classes and Methods
+# Data Structures
+`class`, `enum` and `struct` are the basic building blocks of swift they have:
+* Similar Syntax
+* Can have Properties (`var`, `let`), Methods (`func`)
+* Can have initializer
+* Only Class has inheritance
+* Only Class has introspection and casting
+* `class` = Reference type, `enum` and `struct` = Value type
 
-## `Class`
+## `enums`
+```swift
+enum enumTypeVar : Int { // explicitly all Int's
+    case firstProperty   = 1
+    case secondProperty  = 2
+}
+vat type = enumTypeVar.firstProperty
+```
+
+```swift
+enum Barcode {
+    case UPCA(Int, Int, Int, Int)
+    case QRCode(String)
+}
+```
+## `struct`
+```swift
+struct Resolution {
+    var width = 0
+    var height = 0
+}
+```
+
+## `class`
 ### Creation
 ```swift`
 class MyClass : OptionalSuperClass, OptionalProtocol1, OptionalProtocol2 {
@@ -23,13 +53,17 @@ println("\(myClassObject.myProperty)")          // "initValue"
 println("\(myClassObject.myOptionalProperty!)") // nil
 ```
 
-## `Func`
+### `Final`
+With `Final` a `func`or `class` can't be override. It will be the end of the line.
+
+
+# Methods `Func`
 ```swift
 func doIt() -> Int {
     return 0
 }
 ```
-### Internal & External Names
+## Internal & External Names
 Methods in swift can have internal and external names. The first parameter is a littel different, it should be consistent with the method name.
 * First parameter has no external name but can be forced with `#`.
 * All other parameters need to have an external name
@@ -60,7 +94,7 @@ func doIt(#InternalandImplicitExternalName:Int) -> Int {
 doIt(InternalandImplicitExternalName:0)
 ```
 
-### `Override`
+## `Override`
 A Method from a superclass can be override wiwth the keyword `override`
 ```swift
 class Classname : SuperClassName {
@@ -68,6 +102,5 @@ class Classname : SuperClassName {
 }
 ```
 
-### `Final`
+## `Final`
 With `Final` a `func`or `class` can't be override. It will be the end of the line.
-
