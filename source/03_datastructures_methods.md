@@ -56,7 +56,7 @@ println("\(myClassObject.myOptionalProperty!)") // nil
 ### `Final`
 With `Final` a `func`or `class` can't be override. It will be the end of the line.
 
-# Methods `Func`
+# Methods `func`
 ```swift
 func doIt() -> Int {
     return 0
