@@ -7,4 +7,6 @@
 * [Control Flow](source/04_controlflow.md)
 * [NS Classes](source/05_nsclasses.md)
 * [Other](source/06_other.md)
+* [Objective-C](source/07_obj_c.md)
+ * [Objective-C Compatibility](source/071_obj_c_comp.md)
 * [Algorithms](source/10_algorithms.md)
