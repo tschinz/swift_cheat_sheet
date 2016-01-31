@@ -74,8 +74,8 @@ let index = advance(s.startIndex, 2) // index is a String.Index to the 3rd glyph
 s.splice("abc", index)               // s will now be "heabcllo"
 
 let startIndex = advance(s.startIndex, 1)
-let endIndex    = advance(s.startIndex, 6)
-let substring   = s[index..<enIndex] // substring will be "eabcl"
+let endIndex   = advance(s.startIndex, 6)
+let substring  = s[index..<enIndex] // substring will be "eabcl"
 
 ```
 
