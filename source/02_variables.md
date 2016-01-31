@@ -1,4 +1,4 @@
-# Variables
+# Properties
 It is best to let Swift infer the variable type. Many types are Optionals.
 
 ## Constants and Variables
@@ -35,7 +35,7 @@ var doubleString = "9.95"
 var Double_var = NSString(string: doubleString).doubleValue // == 9.95
 ```
 
-### Property Observer
+### Property Observer `willSet`& `didSet`
 A property can have two observer functions. They can be used to inform somebody that the variable "will get set" or "did just get set".
 * Can be used to update the GUI
 ```swift
@@ -50,6 +50,21 @@ var userStatusText: String {
     }
 }
 ```
+
+### `lazy`
+* `lazy`properties are not getting initialized until someone accesses it
+* only for `var`
+```swift
+lazy var varName = SomeClass() // Nice if SomeClass uses a lot of resources
+
+lazy var someProperty: Tpye = {
+   // construct the value
+   return constructed value
+}()
+
+lazy var myProperty = self.initializeMyProperty()
+```
+
 ## Optional
 An `Optional` is just en enum.
 ```swift
