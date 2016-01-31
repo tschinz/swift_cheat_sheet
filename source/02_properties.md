@@ -81,6 +81,9 @@ let num = "12.34"
 if let decimalRange = num.rangeOfString(".") { // decimalRange == Range<String.Index>
     let wholeNumberPart = num[num.startIndex..<decimalRange.startIndex]
 }
+//Also
+s.removeRange([s.startIndex..<decimalRange.startIndex])
+replaceRange(Range,String)
 ```
 
 ## Optional
