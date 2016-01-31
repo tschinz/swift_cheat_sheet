@@ -177,5 +177,24 @@ var toolbarItems: [AnyObject]
 // As Arguments to functions
 func appendDigit(sender: AnyObject)
 func addConstraints(constraints: [AnyObject])
+
+// Return type of functions
+class func buttonWithType(buttonType: UIButtonType) -> AnyObject
 ```
+
+#### Convert `AnyObject`
+**Casting `as` or `as?`**
+```swift
+var destinationViewController: AnyObject
+let calcVC = destinationViewController as CalculatorViewVController  // could crash if not correct
+
+if let calcVC = destinationViewController as? CalculatorViewController { ... }
+```
+Cast on the fly
+```swift
+let button: AnyObject = UIButton.buttonWithTyoe(UIButtonType.System)
+let title = (button as UIButton).currentTitle
+```
+
+
 
