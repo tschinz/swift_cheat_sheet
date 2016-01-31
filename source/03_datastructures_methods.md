@@ -67,6 +67,7 @@ Methods in swift can have internal and external names. The first parameter is a 
 * First parameter has no external name but can be forced with `#`.
 * All other parameters need to have an external name
 * `_` == "I don't care". An name can be eliminated
+
 ```swift
 func doIt(a:Int) -> Int {
     return a
@@ -93,7 +94,7 @@ func doIt(#InternalandImplicitExternalName:Int) -> Int {
 doIt(InternalandImplicitExternalName:0)
 ```
 
-## `Override`
+## `override`
 A Method from a superclass can be override wiwth the keyword `override`
 ```swift
 class Classname : SuperClassName {
@@ -101,7 +102,7 @@ class Classname : SuperClassName {
 }
 ```
 
-## `Final`
+## `final`
 With `Final` a `func`or `class` can't be override. It will be the end of the line.
 
 ## `init()` Method
@@ -129,7 +130,7 @@ What **have to** be done in an `init`:
 
 ### Inherited `init`
 * If no `init` is implemented all superclass `init` are inherited
-* If you override all superclass `init, you'll inherit all its `convenience init`
+* If you override all superclass `init`, you'll inherit all its `convenience init`
 * If you implement no `init`, you'll inherit all superclass `init`
 
 ### Required `init`
