@@ -23,10 +23,10 @@ A property can have two observer functions. They can be used to inform somebody 
 * Can be used to update the GUI
 ```swift
 var userStatusText: String {
-     willSet {
+    willSet {
         print("About to set status to:  \(newValue)")
     }
-     didSet {
+    didSet {
         if userStatusText != oldValue {
             postNewStatusNotification()
         }
