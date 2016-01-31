@@ -170,6 +170,7 @@ let button = UIButton.buttonWithType(UIButtonType.System)
 
 ### `AnyObject`
 * Special Type (it is a Protocol) used to compatibility with Objective-C-based API
+
 ```swift
 // As Properties
 var destinationViewController : AnyObject
@@ -185,13 +186,16 @@ class func buttonWithType(buttonType: UIButtonType) -> AnyObject
 
 #### Convert `AnyObject`
 **Casting `as` or `as?`**
+
 ```swift
 var destinationViewController: AnyObject
 let calcVC = destinationViewController as CalculatorViewVController  // could crash if not correct
 
 if let calcVC = destinationViewController as? CalculatorViewController { ... }
 ```
+
 Cast on the fly
+
 ```swift
 let button: AnyObject = UIButton.buttonWithTyoe(UIButtonType.System)
 let title = (button as UIButton).currentTitle
