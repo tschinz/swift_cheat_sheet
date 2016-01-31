@@ -137,7 +137,7 @@ What **have to** be done in an `init`:
 * A `class` can mark one or more `init` as required
 
 ### Failable `init``
-Rare `init` which can return `nil`
+Rare, it is a `init` which can return `nil`
 ```swift
 init?(){
     // might return nil
