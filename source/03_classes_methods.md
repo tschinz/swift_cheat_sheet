@@ -1,6 +1,6 @@
 # Classes and Methods
 
-## Class
+## `Class`
 ### Creation
 ```swift`
 class MyClass : OptionalSuperClass, OptionalProtocol1, OptionalProtocol2 {
@@ -23,18 +23,22 @@ println("\(myClassObject.myProperty)")          // "initValue"
 println("\(myClassObject.myOptionalProperty!)") // nil
 ```
 
-
-## Methods
-Methods in swift can have internal and external names. The first parameter is a littel different, it should be consistent with the method name.
+## `Func`
 ```swift
 func doIt() -> Int {
     return 0
 }
-
+```
+### Internal & External Names
+Methods in swift can have internal and external names. The first parameter is a littel different, it should be consistent with the method name.
+* First parameter has no external name but can be forced with `#`.
+* All other parameters need to have an external name
+* `_` == "I don't care". An name can be eliminated
+```swift
 func doIt(a:Int) -> Int {
     return a
 }
-doIt(0)     // return 0
+doIt(0)         // return 0
 
 func doIt(a:Int, b:Int) -> (a:Int, b:Int){
     return (a, b)
@@ -54,11 +58,16 @@ func doIt(#InternalandImplicitExternalName:Int) -> Int {
     return InternalandImplicitExternalName
 }
 doIt(InternalandImplicitExternalName:0)
-
-
-func doIt(externalName InternalName:Int)
-
 ```
 
+### `Override`
+A Method from a superclass can be override wiwth the keyword `override`
+```swift
+class Classname : SuperClassName {
+    override doIt()
+}
+```
 
+### `Final`
+With `Final` a `func`or `class` can't be override. It will be the end of the line.
 
