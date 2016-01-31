@@ -12,3 +12,6 @@
 ## `continue` & `break` & `fallthrough`
 
 ## `guard`
+
+## `as`, `as?` type casting, `is` type check
+
