@@ -30,6 +30,9 @@ let cgf = CGFloat(d)
 
 let a = Array("abc")            // a = ["a", "b", "c"], array of characters
 let s = String(["a", "b", "c"]) // s= "abc"
+
+let s = String(52)  // no floats
+let s = "\(37.5)"
 ```
 
 ### Property Observer `willSet`& `didSet`
