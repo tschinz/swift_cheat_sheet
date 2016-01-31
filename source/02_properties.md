@@ -49,6 +49,7 @@ lazy var myProperty = self.initializeMyProperty()
 ```
 
 ## String
+String is an array of character. But one String can need one more characters (glyphs)
 Combining Strings
 ```swift
 let string1 = "one"
@@ -63,6 +64,18 @@ var intVar = NSString(string: intString).intValue           // == 999
 
 var doubleString = "9.95"
 var Double_var = NSString(string: doubleString).doubleValue // == 9.95
+```
+
+### String Functions
+```swift
+var s = "hello"
+let index = advance(s.startIndex, 2) // index is a String.Index to the 3rd glyphm "l"
+s.splice("abc", index)               // s will now be "heabcllo"
+
+let  startIndex = advance(s.startIndex, 1)
+let endIndex    = advance(s.startIndex, 6)
+let substring   = s[index..<enIndex] // substring will be "eabcl"
+
 ```
 
 ## Optional
@@ -119,7 +132,27 @@ for os in os_s {
 
 ### Array Functions
 ```swift
-some_os.append("Windows")
+var a = [a,b,c]
+
+arr.append(T)
+arr.insert(T, atIndex: Int)           // a.insert(d, atIndex:1), a=[a,d,b,c]
+arr.splice(Array<T>, atIndex: Int)    // a.splice([d,e], atIndex:1), a= [a,d,e,b,c]
+
+removeAtIndex(Int)                    // a.removeAtIndex(1), a = [a,c]
+removeRange(Range)                    // a.removeRange(0..<2), a= [c]
+replaceRange(Range, [T])              // a,replaceRange(0...1, with:[x,y,z]), a = [x,y,z,b]
+
+sort(isOrderedBefore: (T, T) -> Bool) // a.sort { $0 < $1 }
+
+filter(includeElement: (T) -> Bool) -> [T]
+map(transform: (T) -> U) -> [U]
+let stringfield: [String] = [1,2,3].map { "\($0)" }
+
+reduce(initial: U, combine:(U,T) -> U) -> U
+let sum: Int = [1,2,3].reduce(0) { $0 + $1 }
+
+
+
 ```
 
 ## Dictionary
