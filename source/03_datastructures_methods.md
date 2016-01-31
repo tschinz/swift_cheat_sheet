@@ -3,8 +3,8 @@
 * Similar Syntax
 * Can have Properties (`var`, `let`), Methods (`func`)
 * Can have initializer
-* Only Class has inheritance
-* Only Class has introspection and casting
+* Only `class` has inheritance
+* Only `class` has introspection and casting
 * `class` = Reference type, `enum` and `struct` = Value type
 
 ## `enums`
