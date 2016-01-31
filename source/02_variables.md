@@ -34,45 +34,22 @@ var intVar = NSString(string: intString).intValue           // == 999
 var doubleString = "9.95"
 var Double_var = NSString(string: doubleString).doubleValue // == 9.95
 ```
-## Data Structures
-Class, Enum and Struct are the basic building blocks of swift they have
-* Similar Syntax
-* Can have Properties, Functions
-* Can have initializer
-* Only Class has inheritance
-* Only Class has introspection and casting
-* Class = Reference type, Enum and Struct = Value type
 
-### Class
+### Property Observer
+A property can have two observer functions. They can be used to inform somebody that the variable "will get set" or "did just get set".
+* Can be used to update the GUI
 ```swift
-class ClassName: SuperClassName{
-// Properties
-// Functions
+var userStatusText: String {
+     willSet {
+        print("About to set status to:  \(newValue)")
+    }
+     didSet {
+        if userStatusText != oldValue {
+            postNewStatusNotification()
+        }
+    }
 }
 ```
-### Enums
-```swift
-enum enumTypeVar : Int { // explicitly all Int's
-    case firstProperty   = 1
-    case secondProperty  = 2
-}
-vat type = enumTypeVar.firstProperty
-```
-
-```swift
-enum Barcode {
-    case UPCA(Int, Int, Int, Int)
-    case QRCode(String)
-}
-```
-## Structs
-```swift
-struct Resolution {
-    var width = 0
-    var height = 0
-}
-```
-
 ## Optional
 An `Optional` is just en enum.
 ```swift
