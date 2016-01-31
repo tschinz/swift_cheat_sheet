@@ -18,6 +18,20 @@ let immutableBool   : Bool   = false
 let immutableString : String = "Text" // String is always an optional
 ```
 
+### Type Conversion
+With `init()`
+
+```swift
+led d: Double = 37.5
+let f: Float  = 37.5
+let x = Int(d)       // truncates
+led xd = Double(x)
+let cgf = CGFloat(d)
+
+let a = Array("abc")
+let s = String(["a", "b", "c"])
+```
+
 ### Property Observer `willSet`& `didSet`
 A property can have two observer functions. They can be used to inform somebody that the variable "will get set" or "did just get set".
 * Can be used to update the GUI
