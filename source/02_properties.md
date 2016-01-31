@@ -37,6 +37,7 @@ var userStatusText: String {
 ### `lazy`
 * `lazy`properties are not getting initialized until someone accesses it
 * only for `var`
+
 ```swift
 lazy var varName = SomeClass() // Nice if SomeClass uses a lot of resources
 
@@ -49,7 +50,7 @@ lazy var myProperty = self.initializeMyProperty()
 ```
 
 ## String
-String is an array of character. But one String can need one more characters (glyphs)
+String is an array of character. But one String can need one or more characters (glyphs)
 Combining Strings
 ```swift
 let string1 = "one"
