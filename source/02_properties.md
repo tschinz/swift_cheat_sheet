@@ -28,8 +28,8 @@ let x = Int(d)       // truncates
 led xd = Double(x)
 let cgf = CGFloat(d)
 
-let a = Array("abc")
-let s = String(["a", "b", "c"])
+let a = Array("abc")            // a = ["a", "b", "c"], array of characters
+let s = String(["a", "b", "c"]) // s= "abc"
 ```
 
 ### Property Observer `willSet`& `didSet`
