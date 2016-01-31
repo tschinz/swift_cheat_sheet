@@ -34,8 +34,23 @@ var intVar = NSString(string: intString).intValue           // == 999
 var doubleString = "9.95"
 var Double_var = NSString(string: doubleString).doubleValue // == 9.95
 ```
+## Data Structures
+Class, Enum and Struct are the basic building blocks of swift they have
+* Similar Syntax
+* Can have Properties, Functions
+* Can have initializer
+* Only Class has inheritance
+* Only Class has introspection and casting
+* Class = Reference type, Enum and Struct = Value type
 
-## Enums
+### Class
+```swift
+class ClassName: SuperClassName{
+// Properties
+// Functions
+}
+```
+### Enums
 ```swift
 enum enumTypeVar : Int { // explicitly all Int's
     case firstProperty   = 1
@@ -48,6 +63,13 @@ vat type = enumTypeVar.firstProperty
 enum Barcode {
     case UPCA(Int, Int, Int, Int)
     case QRCode(String)
+}
+```
+## Structs
+```swift
+struct Resolution {
+    var width = 0
+    var height = 0
 }
 ```
 
