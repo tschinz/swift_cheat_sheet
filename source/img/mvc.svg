@@ -408,11 +408,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.7"
-     inkscape:cx="10.943923"
-     inkscape:cy="278.18623"
+     inkscape:zoom="1.4"
+     inkscape:cx="274.48881"
+     inkscape:cy="46.180364"
      inkscape:document-units="px"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="g4148"
      showgrid="false"
      inkscape:window-width="1402"
      inkscape:window-height="855"
@@ -471,15 +471,15 @@
       <text
          sodipodi:linespacing="125%"
          id="text4140"
-         y="479.8222"
-         x="181.30942"
-         style="font-style:normal;font-weight:normal;font-size:25px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         y="479.30185"
+         x="218.05116"
+         style="font-style:normal;font-weight:normal;font-size:25px;line-height:125%;font-family:Sans;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          xml:space="preserve"><tspan
-           y="479.8222"
-           x="181.30942"
+           y="479.30185"
+           x="218.05116"
            id="tspan4142"
            sodipodi:role="line"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue'">Model</tspan></text>
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';text-align:center;text-anchor:middle">Model</tspan></text>
       <ellipse
          ry="15.027828"
          rx="25.870693"
@@ -517,15 +517,15 @@
       <text
          xml:space="preserve"
          style="font-style:normal;font-weight:normal;font-size:25px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         x="188.94492"
-         y="479.50482"
+         x="218.40312"
+         y="479.30185"
          id="text4162"
          sodipodi:linespacing="125%"><tspan
            sodipodi:role="line"
            id="tspan4164"
-           x="188.94492"
-           y="479.50482"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue'">View</tspan></text>
+           x="218.40312"
+           y="479.30185"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';text-align:center;text-anchor:middle">View</tspan></text>
       <ellipse
          style="opacity:1;fill:#f4eed7;fill-opacity:1;stroke:#dbe2e3;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
          id="ellipse4166"
@@ -563,15 +563,15 @@
       <text
          sodipodi:linespacing="125%"
          id="text4178"
-         y="479.8222"
-         x="155.7601"
+         y="479.45184"
+         x="217.66777"
          style="font-style:normal;font-weight:normal;font-size:25px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          xml:space="preserve"><tspan
-           y="479.8222"
-           x="155.7601"
+           y="479.45184"
+           x="217.66777"
            id="tspan4180"
            sodipodi:role="line"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue'">Controller</tspan></text>
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';text-align:center;text-anchor:middle">Controller</tspan></text>
     </g>
     <g
        id="g4748"
