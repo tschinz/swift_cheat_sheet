@@ -24,3 +24,35 @@ let suffix = suffix(aSliceable, X: Int)    // returns last X things
 let reversed: Array = reverse(aCollection) // remembers that String in a collection
 let backwardsString = String(reverse(s))   // 
 ```
+## View
+Views is a `UIView` subclass and it represents a rectangular Area on the screen.
+* a View can have on superview
+* a View can have many subviews
+
+`UIWindow` is the very top of the view hierarchy (it even includes the status bar). But normally you never interact with it.
+
+**Top View**
+Property of the Program called
+```swift
+var view: UIView
+```
+
+### Initializing UIView
+```swift
+init(frame: CGRect)  // init of UIView created in code
+init(coder: NSCoder) // init of UIView comes out of storyboard
+```
+
+If you need an initializer set them **both**
+```swift
+func setup() {...}
+
+override init(frame:CGRect) {            // a designated init
+    super.init(frame: frame)
+    setup()
+}
+required init(coder aDecoder: NsCoder) { // a required init
+    super.init(coder: aDecoder)
+    setup()
+}
+```
