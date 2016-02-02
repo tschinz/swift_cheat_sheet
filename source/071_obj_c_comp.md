@@ -39,3 +39,14 @@ setDouble(Double, forKey: String)
 doubleForKey(String -> Double) // not an optional, return 0 if no such key
 ```
 
+### Using `NSUserDefaults`
+```swift
+// Get default reader/writer
+let defaults = NSUserDefaults.standardUserDefults()
+// Read / Write
+let plist: AnyObject = defaults.objectForKey(String)
+defaults.setObject(AnyObject, forKey: String)
+// It is autosave but you can synchonize
+if !defaults.synchronize() {}
+```
+
