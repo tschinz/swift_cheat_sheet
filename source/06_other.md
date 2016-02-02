@@ -57,3 +57,19 @@ required init(coder aDecoder: NsCoder) { // a required init
 }
 ```
 
+## Coordinate System
+### Data Structures
+```swift
+// CGFloat never user double or float for coordinated
+let cfg = CGFloat(aDouble)
+
+// CFPoint two CFFloats in x and y
+var point = CGPointer(x: 37.0, y: 55.2)
+point.y -= 30
+point.x += 20.0
+
+// CGSize struct with two CGFloats in width and height
+var size = CGSize(width: 100.0, height: 50.0)
+size.width  += 42.5
+size.height += 75
+```
