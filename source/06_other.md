@@ -23,5 +23,4 @@ let prefix = prefix(aSliceable, X: Int)    // returns first X things
 let suffix = suffix(aSliceable, X: Int)    // returns last X things
 let reversed: Array = reverse(aCollection) // remembers that String in a collection
 let backwardsString = String(reverse(s))   // 
-
 ```
