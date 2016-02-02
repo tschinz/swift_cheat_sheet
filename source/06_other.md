@@ -74,6 +74,7 @@ var center: CGPoint // center of a UIView in its superview's coordinate system
 var frame : CGRect  // the rect containing a UIview in its superview's coordinate system
 ```
 * Bounds vs Frame
+
 ![Coordinate](img/coordinates.svg)
 
 ## Coordinate System
