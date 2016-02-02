@@ -76,6 +76,13 @@ var frame : CGRect  // the rect containing a UIview in its superview's coordinat
 * Bounds vs Frame
 ![Coordinate](img/coordinates.svg)
 
+```swift
+View B's bounds = ( (0  ,0) , (250,200) )
+View B's frame  = ( (140,65), (320,320) )
+View B's center = ( 300,225 )
+View B's middle = (bounds.midX, bounds.midY) = (100,125)
+```
+
 ## Coordinate System
 ### Data Structures
 ```swift
