@@ -79,4 +79,11 @@ struct CGRect {
     var size  : CGSize
 }
 let rect = CGRect(origin: aCGPoint, size: aCGSize)
+// Other CGRect properties and methods
+var minx: CGFloat          // left edge
+var midY: CGFloat          // midpoint vertically
+intersects(CGRect) -> Bool // does CGRect intersect with otehr one?
+intersect(CGRect)          // clip the CGRect to the intersection wit hthe other one
+contains(CGPoint) -> Bool  // does CGRect contain the given CGPoint?
+//.. and many more
 ```
