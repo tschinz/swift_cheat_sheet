@@ -56,6 +56,26 @@ required init(coder aDecoder: NsCoder) { // a required init
     setup()
 }
 ```
+### View's Coordinate System
+* Origin = upper left
+* Units are points (not pixels)
+* One point can have multiple pixels
+```swift
+var contentSacleFactor: CGFloat // get number of pixels per point
+```
+
+* Boundaries is wher drawings happen
+```swift
+var bounds: CGRect // a vies internal drawing space's origin and size
+```
+* The UIView location
+```swift
+var center: CGPoint // center of a UIView in its superview's coordinate system
+var frame : CGRect  // the rect containing a UIview in its superview's coordinate system
+```
+* Bounds vs Frame
+*
+
 
 ## Coordinate System
 ### Data Structures
