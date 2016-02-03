@@ -98,6 +98,11 @@ label.text = "Hello"
 view.addSubview(label)
 ```
 
+### Custom View
+Used when
+* Draw some custom drawing on screen
+* If touch events need to be handeled differently
+
 ## Coordinate System
 ### Data Structures
 ```swift
