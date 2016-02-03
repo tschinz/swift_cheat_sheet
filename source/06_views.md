@@ -87,6 +87,24 @@ setNeedsDisplay()
 setNeedsDisplayinRect(regionThatNeedsToBeDrawn: CGRect)
 ```
 
+### `UIBezierPath`
+```swift
+// Create
+let path = UIBezierPath()
+// Move, add line or arcs to the path
+path.moveToPoint(CGPoint(80,50)) // assume screen is 160x250
+path.addLineToPoint(CGPoint(140,150))
+path.addLineToPoint(CGPoint(10,150))
+// Close path to start point
+path.closePath()
+// Set attributes and stroke / fill
+UIColor.greenColor().setFill() // method of UIColor
+UIColor.redColor().setStroke() // method of UIColor
+path.linewidth = 3.0           // property in UIBezierPath
+path.fill()
+path.stroke()
+```
+
 
 ## Coordinate System
 ### Data Structures
