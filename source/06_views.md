@@ -135,6 +135,13 @@ let image: UIImage? = UIImage(contentOfFile: aString)
 let image: UIImage? = UIImage(data: anNSData) // raw .jpg, .png, .tiff, ...
 ```
 
+**Drawing image on screen**
+```swift
+image.drawAtPoint(aCGPoint)         // upper left of the image put at aCGPoint
+image.drawInRect(aCGPoint)          // scales image to fit aCGRect
+image.drawAsPAtternInRect(aCGPoint) // tiles the image into aCGRect
+```
+
 ### `UIBezierPath`
 ```swift
 // Create
