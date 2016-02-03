@@ -99,7 +99,18 @@ setNeedsDisplay()
 setNeedsDisplayinRect(regionThatNeedsToBeDrawn: CGRect)
 ```
 
-## `UIBezierPath`
+## Drawing
+### Drawing Text
+Usually `UILabel` is used to put text on screen
+
+To draw in `drawRect` use `NSAttributedString`
+```swift
+let text = NSAttributedString("Hello")
+text.drawAtPoint(aCGPoint)
+let textSize: CGSize = text.size
+```
+
+### `UIBezierPath`
 ```swift
 // Create
 let path = UIBezierPath()
@@ -117,7 +128,6 @@ path.fill()
 path.stroke()
 ```
 
-### Drawing
 **Other shapes**
 ```swift
 let roundRect = UIBezierPath(roundedRect: aCGRect, cornerRadius: aCGFloat)
