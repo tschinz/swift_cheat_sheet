@@ -72,6 +72,18 @@ label.text = "Hello"
 view.addSubview(label)
 ```
 
+## View transparency
+Layers are defined in th order they are in the subviews list
+* First in the list are the lower layers
+* Later in the list are on Top
+* Transparency is not cheap
+
+## Hide a view
+A hidden view don't receive touch inputs or events and can draw nothing on screen
+```swift
+var hidden: Bool
+```
+
 ## Custom View
 Used when
 * Draw some custom drawing on screen
