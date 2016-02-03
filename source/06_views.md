@@ -142,13 +142,19 @@ image.drawInRect(aCGPoint)          // scales image to fit aCGRect
 image.drawAsPAtternInRect(aCGPoint) // tiles the image into aCGRect
 ```
 
-### Bound change
+### Bound change `UIViewContentMode`
 Bound can change if the device is rotated etc.
 * By default there is no redraw
 * Content and images are getting streched
 * Can be changed in the `UIView` property
 ```swift
 var contentMode: UIViewContentMode
+// Don't scale to view but place it somewhere else
+.Left/.Right/.Top/.Bottom/.TopRight/.BottomRight/.BottomLeft/.Center
+// Scale view
+.ScaleToFit/.ScaleAspectFill/.ScaleAspectFit // scale to fill is the default
+// Redraw by calling drawRect again
+.Redraw // This is the one you should use
 ```
 
 ### `UIBezierPath`
