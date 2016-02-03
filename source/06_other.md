@@ -84,6 +84,20 @@ View B's center = ( 300,225 )
 View B's middle = (bounds.midX, bounds.midY) = (100,125)
 ```
 
+### Creating a View
+**In Stroyboard**
+* Drag UIView into storyboard
+* User `Identity Inspector` to changes it's class to your sublcass
+
+**In Code**
+Assuming this code is in the UIViewController
+```swift
+let labelRect = CGRect(x: 20, y:20 , width: 100, height:50)
+let label = UILabel(frame: labelRect) // UILabel is a sublcass of UIView
+label.text = "Hello"
+view.addSubview(label)
+```
+
 ## Coordinate System
 ### Data Structures
 ```swift
