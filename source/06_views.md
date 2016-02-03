@@ -178,7 +178,7 @@ For HitDetection a path must be closed
 func containsPoint(CGPoint) -> Bool // tells whether a point is inside a path
 ```
 
-## `UIColor``
+## ``UIColor``
 ```swift
 // Colors can also b RGB, HSB or even a pattern (using UIImage)
 let green = UIColor.greenColor()
@@ -193,7 +193,7 @@ var opaque = false
 var alpha: CGFloat
 ```
 
-## UIFont
+## `UIFont`
 ```swift
 class func preferredFontForTextStyle(UIFontTextStyle) -> UIFont
 
