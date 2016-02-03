@@ -179,6 +179,13 @@ class func preferredFontForTextStyle(UIFontTextStyle) -> UIFont
 UIFontTextStyle.Headline
 UIFontTextStyle.Body
 UIFontTextStyle.Footnote
+````
+**System Font**
+
+Not used for user content
+```swift
+class func systemFontOfSize(pointSize: CGFloat) -> UIFont
+class func boldsystemFontOfSize(pointSize: CGFloat) -> UIFont
 ```
 
 ## Coordinate System
