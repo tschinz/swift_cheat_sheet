@@ -51,6 +51,7 @@ override init(frame:CGRect) {            // a designated init
     super.init(frame: frame)
     setup()
 }
+
 required init(coder aDecoder: NsCoder) { // a required init
     super.init(coder: aDecoder)
     setup()
