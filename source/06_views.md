@@ -87,7 +87,7 @@ setNeedsDisplay()
 setNeedsDisplayinRect(regionThatNeedsToBeDrawn: CGRect)
 ```
 
-### `UIBezierPath`
+## `UIBezierPath`
 ```swift
 // Create
 let path = UIBezierPath()
@@ -105,6 +105,39 @@ path.fill()
 path.stroke()
 ```
 
+### Drawing
+**Other shapes**
+```swift
+let roundRect = UIBezierPath(roundedRect: aCGRect, cornerRadius: aCGFloat)
+let oval = UIBezierPath(ovelInRect: aCGRect)
+// ... and others
+```
+
+**Clipping**
+```swift
+addClip()
+```
+
+**HitDetection**
+For HitDetection a path must be closed
+```swift
+func containsPoint(CGPoint) -> Bool // tells whether a point is inside a path
+```
+
+## `UIColor``
+```swift
+// Colors can also b RGB, HSB or even a pattern (using UIImage)
+let green = UIColor.greenColor()
+// Background Color
+var backgroundColor : UIView
+// Colors can have alpha (transparency)
+let transparentYellow = UIColor.yellowColor().colorwithAlphaComponent(0.5)
+// 0.0 = fully transparent 1.0 = fully opaque
+// Transparency must be enabled in the UIView
+var opaque = false
+// Entire UIView transparent
+var alpha: CGFloat
+```
 
 ## Coordinate System
 ### Data Structures
