@@ -107,7 +107,7 @@ To draw in `drawRect` use `NSAttributedString`
 ```swift
 let text = NSAttributedString("Hello")
 text.drawAtPoint(aCGPoint)
-let textSize: CGSize = text.size
+let textSize: CGSize = text.size // space used for the string
 ```
 
 ### `UIBezierPath`
