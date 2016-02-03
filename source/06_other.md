@@ -65,7 +65,7 @@ required init(coder aDecoder: NsCoder) { // a required init
 var contentSacleFactor: CGFloat // get number of pixels per point
 ```
 
-* Boundaries is wher drawings happen
+* Boundaries is where drawings happen
 ```swift
 var bounds: CGRect // a vies internal drawing space's origin and size
 ```
