@@ -32,7 +32,7 @@ Views is a `UIView` subclass and it represents a rectangular Area on the screen.
 `UIWindow` is the very top of the view hierarchy (it even includes the status bar). But normally you never interact with it.
 
 **Top View**
-Property of the Program called
+is a property of the Program called:
 ```swift
 var view: UIView
 ```
