@@ -121,6 +121,20 @@ NSStrokeWidthAttributeName: CGFloat
 NSFontAttributeNAme : UIFont
 ```
 
+### Drawing Images
+**`UIImage` object**
+```swift
+let image: UIImage? = UIImage(named: "foo")
+```
+* Images are added in the project in `Images.xcassets` file
+* Images can have different resolutions for different devices (all managed by Images.xcassets)
+
+**From the file system**
+```swift
+let image: UIImage? = UIImage(contentOfFile: aString)
+let image: UIImage? = UIImage(data: anNSData) // raw .jpg, .png, .tiff, ...
+```
+
 ### `UIBezierPath`
 ```swift
 // Create
