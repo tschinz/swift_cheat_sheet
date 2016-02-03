@@ -103,11 +103,22 @@ setNeedsDisplayinRect(regionThatNeedsToBeDrawn: CGRect)
 ### Drawing Text
 Usually `UILabel` is used to put text on screen
 
-To draw in `drawRect` use `NSAttributedString`
+To draw in `drawRect` use `NSAttributedString` or `NSMutableAttributedString`
 ```swift
+// Immutable
 let text = NSAttributedString("Hello")
 text.drawAtPoint(aCGPoint)
 let textSize: CGSize = text.size // space used for the string
+// Mutable
+let mutableText = NSMutableAttributedString("some String")
+
+// Set Attributes
+func setAttributes(attributes: Dictionary, range: NSRange)
+func addAttributes(attributes: Dictionary, range: NSRange)
+
+NSForegroundColorAttributeName : UIColor
+NSStrokeWidthAttributeName: CGFloat
+NSFontAttributeNAme : UIFont
 ```
 
 ### `UIBezierPath`
@@ -159,6 +170,15 @@ let transparentYellow = UIColor.yellowColor().colorwithAlphaComponent(0.5)
 var opaque = false
 // Entire UIView transparent
 var alpha: CGFloat
+```
+
+## UIFont
+```swift
+class func preferredFontForTextStyle(UIFontTextStyle) -> UIFont
+
+UIFontTextStyle.Headline
+UIFontTextStyle.Body
+UIFontTextStyle.Footnote
 ```
 
 ## Coordinate System
