@@ -81,7 +81,7 @@ To create just create a UIView subclass and override drawRect.
 ```swift
 override func drawRect(regionThatNeedsToBeDrawn: CGRect)
 ```
-* Never call drawRect, if a View needs to be redraw use:
+* **Never** call drawRect, if a View needs to be redraw use:
 ```swift
 setNeedsDisplay()
 setNeedsDisplayinRect(regionThatNeedsToBeDrawn: CGRect)
