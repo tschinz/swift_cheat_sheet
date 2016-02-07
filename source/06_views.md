@@ -256,6 +256,7 @@ contains(CGPoint) -> Bool  // does CGRect contain the given CGPoint?
 ```
 
 ## Connection to storyboard
+The `@`keywords are making connection to the storyboard
 ```swift
 import UIKit
 
