@@ -261,7 +261,7 @@ import UIKit
 
 @IBDesignable // live view in storyBoard
 class ViewController: UIView {
-    @IBInspectable // Makes the var changable in storyboard
+    @IBInspectable // Makes the var changable in storyboard (Attribute Inspector)
     var test: Int = 10
     
 ```
