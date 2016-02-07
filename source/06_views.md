@@ -263,5 +263,5 @@ import UIKit
 class ViewController: UIView {
     @IBInspectable // Makes the var changable in storyboard (Attribute Inspector)
     var test: Int = 10
-    
+}
 ```
