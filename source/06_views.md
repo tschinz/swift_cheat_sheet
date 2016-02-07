@@ -254,3 +254,14 @@ intersect(CGRect)          // clip the CGRect to the intersection wit hthe other
 contains(CGPoint) -> Bool  // does CGRect contain the given CGPoint?
 //.. and many more
 ```
+
+## Connection to storyboard
+```swift
+import UIKit
+
+@IBDesignable // live view in storyBoard
+class ViewController: UIView {
+    @IBInspectable // Makes the var changable in storyboard
+    var test: Int = 10
+    
+```
