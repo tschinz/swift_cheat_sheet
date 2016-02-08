@@ -51,7 +51,24 @@ extension Something : SomeProtocol {                                     // impl
     // which MUST include all the properties and methods in SomeProtocol & AnotherProtocol
     required init(..) // inits need to be declared required (that subclass is coherent)
     // incase of extension no stored properties allowed
-    
 }
+```
+
+### Example
+```swift
+protocol Moveable {
+    mutating func moveTo(p: CGPoint)
+}
+class Car: Moveable {
+    func moveTo(p: CGPoint) {...}
+    func changeOil()
+}
+struct Shape: Moveable {
+    mutating func moveTo(p: CGPoint) {...}
+    func draw()
+}
+
+let prius: Car = Car()
+let square: Shape = Shape()
 ```
 
