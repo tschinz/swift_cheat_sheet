@@ -34,7 +34,7 @@ Add a method and properties to a class.
 ```swift
 // Everyone implements SomeProtocol need to implement InheritedProtocol 1 & 2
 protocol SomeProtocol: Inherited Protocol1, InheritedProtocol2 { // can be implemented with class, struct or enum
-protocol SomeProtocol: class Inherited Protocol1, InheritedProtocol2 { // only class can implement
+protocol SomeProtocol: class, Inherited Protocol1, InheritedProtocol2 { // only class can implement
     var someProperty: Int {get set} // need to specify if only get or set or both
     func aMethod(arg1: Double, anotherArgument: String) -> SomeType
     mutating func changeIt() // mutating function need to be declare
