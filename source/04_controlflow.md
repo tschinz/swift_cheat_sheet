@@ -97,7 +97,8 @@ Is using `protocols`. How Views can talking back (blind communication)
 5. Controller sets `self` as the `delegate` of the View by setting the property in 2. above
 6. Implement the `protocol` in the Controller
 
-The View is now hooked up to the Controller and knows nothing
+The View is now hooked up to the Controller and knows nothing. It can remain generic and reusable
+
 ```swift
 
 ```
