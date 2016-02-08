@@ -42,3 +42,12 @@ protocol SomeProtocol: class, Inherited Protocol1, InheritedProtocol2 { // only 
 }
 ```
 
+### Implemtation
+```swift
+class SomeClass: SuperclassOfSomeClass, SomeProtocol, Another Protocol {
+class SomeClass: SomeProtocol, AnotherProtocol {
+    // implementation of SomeClass here
+    // which MUST include all the properties and methods in SomeProtocol & AnotherProtocol
+}
+```
+
