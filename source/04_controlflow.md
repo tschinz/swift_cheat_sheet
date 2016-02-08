@@ -90,6 +90,9 @@ slipAndSlide(prius) // Error prius only Moveable not Slippery
 
 ### Delegation
 Is using `protocols`. How Views can talking back (blind communication)
+1. Create a delegation `protocol` (defines what the View wants the Controller to take care of
+2. Create a `delegate` property in the View whose type is that delegation `protocol`
+3. Use the `delegate` property in the View to get/do things it can't own or control
 
 
 ```swift
