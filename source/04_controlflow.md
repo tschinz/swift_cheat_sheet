@@ -70,5 +70,21 @@ struct Shape: Moveable {
 
 let prius: Car = Car()
 let square: Shape = Shape()
+
+// More examples
+var thingToMove: Moveable = prius
+thingToMove.moveTo(...)  // ok
+thingToMove.changeOil()  // Error not in protocol type
+thingToMove = square
+let thingToMove: [Moveable] = [prius, square]
+
+func slide(slider: Moveable) {
+    let positionToSlideTo = ....
+    slider.moveTo(positionToSlideTo)
+}
+slide(prius)
+slide(square)
+func slipAndSlide(x: protocol<Slippery,Moveable>)
+slipAndSlide(prius) // Error
 ```
 
