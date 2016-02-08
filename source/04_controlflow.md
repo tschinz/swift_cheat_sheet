@@ -88,3 +88,9 @@ func slipAndSlide(x: protocol<Slippery,Moveable>) // needs to implements 2 seper
 slipAndSlide(prius) // Error prius only Moveable not Slippery
 ```
 
+### Delegation
+Is using `protocols`. How Views can talking back (blind communication)
+
+
+```swift
+```
