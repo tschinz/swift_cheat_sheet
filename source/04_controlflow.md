@@ -33,21 +33,25 @@ Add a method and properties to a class.
 ### Declaration
 ```swift
 // Everyone implements SomeProtocol need to implement InheritedProtocol 1 & 2
-protocol SomeProtocol: Inherited Protocol1, InheritedProtocol2 { // can be implemented with class, struct or enum
+protocol SomeProtocol: Inherited Protocol1, InheritedProtocol2 {        // can be implemented with class, struct or enum
 protocol SomeProtocol: class, Inherited Protocol1, InheritedProtocol2 { // only class can implement
     var someProperty: Int {get set} // need to specify if only get or set or both
     func aMethod(arg1: Double, anotherArgument: String) -> SomeType
-    mutating func changeIt() // mutating function need to be declare
+    mutating func changeIt()        // mutating function need to be declare
     init(arg: Type)
 }
 ```
 
 ### Implemtation
 ```swift
-class SomeClass: SuperclassOfSomeClass, SomeProtocol, Another Protocol {
-enum SomeClass: SomeProtocol, AnotherProtocol {
+class SomeClass: SuperclassOfSomeClass, SomeProtocol, Another Protocol { // implementation via class
+enum SomeClass: SomeProtocol, AnotherProtocol {                          // implementation via struct
+extension Something : SomeProtocol {                                     // implementation via an extension
     // implementation of SomeClass here
     // which MUST include all the properties and methods in SomeProtocol & AnotherProtocol
+    required init(..) // inits need to be declared required (that subclass is coherent)
+    // incase of extension no stored properties allowed
+    
 }
 ```
 
