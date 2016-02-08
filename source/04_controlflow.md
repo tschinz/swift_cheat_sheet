@@ -93,7 +93,9 @@ Is using `protocols`. How Views can talking back (blind communication)
 1. Create a delegation `protocol` (defines what the View wants the Controller to take care of
 2. Create a `delegate` property in the View whose type is that delegation `protocol`
 3. Use the `delegate` property in the View to get/do things it can't own or control
-
+4. Controller declared that it implements the `protocol`
+5. Controller sets `self` as the `delecate` of the View by setting the property in 2. above
+6. Implement the `protocol` in the Controller
 
 ```swift
 
