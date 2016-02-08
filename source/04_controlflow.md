@@ -85,6 +85,6 @@ func slide(slider: Moveable) {
 slide(prius)
 slide(square)
 func slipAndSlide(x: protocol<Slippery,Moveable>) // needs to implements 2 seperate protocols
-slipAndSlide(prius) // Error
+slipAndSlide(prius) // Error prius only Moveable not Slippery
 ```
 
