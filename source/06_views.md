@@ -280,6 +280,9 @@ class ViewController: UIView {
 
 ### Add a Gesture recognizer
 ```swift
+// Normal outlet to the UIView we want to recognize the gesture
+// The Target gets notified when the gesture is recognized (in this case the Controller itself)
+// The action is the method invoked on recognition (the : means it has an argument)
 @IBoutlet ewak var pannableView: UIView {
     didSet {
         let recognizer = UIPanGestureRecognizer(target: self, action: "pan:")
