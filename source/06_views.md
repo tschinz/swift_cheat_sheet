@@ -278,7 +278,7 @@ class ViewController: UIView {
 * "Recognize" is done by the Controller
 * "Handling" is provided either by the `UIView` or a `Controller`
 
-### Add a Gesture recognizer
+### Add a Gesture recognizer (to a View)
 ```swift
 // Normal outlet to the UIView we want to recognize the gesture
 // The Target gets notified when the gesture is recognized (in this case the Controller itself)
@@ -289,4 +289,13 @@ class ViewController: UIView {
         pannableView.addGestureRecognizer(recognizer)
     }
 }
+```
+
+### Handling a Gesture
+* A handler for a gesture needs gesture-specific information
+* For Example, `UIPanGestureRecognizer` provides 3 methods
+```swift
+func translationInView(view: UIView) -> CGPoint //cumulative since start of recognize
+func velocityInView(view: UIView) -> CGPoint    // how fast the finger is moving (points/s)
+func setTranslation(translation: CGPoint, inView: UIView)
 ```
