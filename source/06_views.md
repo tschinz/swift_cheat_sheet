@@ -266,3 +266,24 @@ class ViewController: UIView {
     var test: Int = 10
 }
 ```
+
+## Gestures
+* A UIView can get notified when a gestures happens
+    * Raw gestures (touch down, moved, up etc.)
+    * We can react to predefined "guestures"
+* Gestures are recognized by instance of `UIGestureRecognizer`
+    * Concrete subclasses are used never the base class
+    1. (recognize) Adding a guesture recognizer to a `UIView` (ask a `UIVew` to recognize a guesture)
+    2. (handle) Providing a method to "handle" that gesture (not necessarily by the `UIView)
+* "Recognize" is done by the Controller
+* "Handling" is provided either by the `UIView` or a `Controller`
+
+### Add a Gesture recognizer
+```swift
+@IBoutlet ewak var pannableView: UIView {
+    didSet {
+        let recognizer = UIPanGestureRecognizer(target: self, action: "pan:")
+        pannableView.addGestureRecognizer(recognizer)
+    }
+}
+```
