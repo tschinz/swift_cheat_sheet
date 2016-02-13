@@ -322,4 +322,30 @@ func pan(gesture: UIPanGestureRecognizer) {
 } 
 ```
 
+### Possible Gestures
+* `UIPinchGestureRecognizer`
+```swift
+var scale: CGFloat            // not read-only (can reset)
+var velocity: CGFloat { get } // scale factor per second
+```
+* `UIRotationGestureRecognizer`
+```swift
+var rotation: CGFloat         // not read-only (can reset); in radians
+var velocity: CGFloat { get } // radians per second
+```
+* `UISwipeGestureRecognizer`
+Set up the direction and nbr of fingers, then look for `.Recognized`
+```swift
+var direction: UISwipeGestureRecognizerDirection // which swipes you want
+var numberOfTouchesRequired: Int                 // finger count
+```
+
+* `UITapGestureRecognizer`
+Set up the number of taps and fingers you want, then look for `.Ended`
+```swift
+var numberOfTapsRequired: Int    // single tap, double tap, etc.
+var numberOfTouchesRequired: Int // finger count
+```
+
+
 
