@@ -302,6 +302,10 @@ func setTranslation(translation: CGPoint, inView: UIView) // allows to reset tra
 * The acstract superclass also provides state information
 ```swift
 var state: UIGestureRecognizerState { get }
+.Possible   // start at possible gesture
+.Recognized // gesture recognized
+.Changed    // gesture changed
+.Ended      // gesture ended
 ```
 
 
