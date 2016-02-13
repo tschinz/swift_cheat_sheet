@@ -295,7 +295,7 @@ class ViewController: UIView {
 * A handler for a gesture needs gesture-specific information
 * For Example, `UIPanGestureRecognizer` provides 3 methods
 ```swift
-func translationInView(view: UIView) -> CGPoint //cumulative since start of recognize
+func translationInView(view: UIView) -> CGPoint // cumulative since start of recognize
 func velocityInView(view: UIView) -> CGPoint    // how fast the finger is moving (points/s)
 func setTranslation(translation: CGPoint, inView: UIView)
 ```
