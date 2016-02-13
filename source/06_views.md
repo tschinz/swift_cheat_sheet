@@ -316,7 +316,7 @@ func pan(gesture: UIPanGestureRecognizer) {
         case .Ended:
             let translation = gesture.translationInView(pannableview)
             // update anything that depends on the pan gesture using translation.x and .y
-            gesture.setTranslation(CGPointZero, InView: pannableView)
+            gesture.setTranslation(CGPointZero, InView: pannableView) // optional
         default: break
     }
 } 
