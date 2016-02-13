@@ -297,6 +297,11 @@ class ViewController: UIView {
 ```swift
 func translationInView(view: UIView) -> CGPoint // cumulative since start of recognize
 func velocityInView(view: UIView) -> CGPoint    // how fast the finger is moving (points/s)
-func setTranslation(translation: CGPoint, inView: UIView)
+func setTranslation(translation: CGPoint, inView: UIView) // allows to reset translation, you end up getting incremental translation
 ```
+* The acstract superclass also provides state information
+```swift
+var state: UIGestureRecognizerState { get }
+```
+
 
