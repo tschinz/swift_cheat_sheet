@@ -299,13 +299,27 @@ func translationInView(view: UIView) -> CGPoint // cumulative since start of rec
 func velocityInView(view: UIView) -> CGPoint    // how fast the finger is moving (points/s)
 func setTranslation(translation: CGPoint, inView: UIView) // allows to reset translation, you end up getting incremental translation
 ```
-* The acstract superclass also provides state information
+* The abstract superclass also provides state information
 ```swift
 var state: UIGestureRecognizerState { get }
+// Possible states
 .Possible   // start at possible gesture
 .Recognized // gesture recognized
 .Changed    // gesture changed
 .Ended      // gesture ended
+```
+**e.g. Pan Handler**
+```swift
+func pan(gesture: UIPanGestureRecognizer) {
+    switch gesture.state {
+        case .Changed: falltrough // execute code of the next case
+        case .Ended:
+            let translation = gesture.translationInView(pannableview)
+            // update anything that depends on the pan gesture using translation.x and .y
+            gesture.setTranslation(CGPointZero, InView: pannableView)
+        default: break
+    }
+} 
 ```
 
 
