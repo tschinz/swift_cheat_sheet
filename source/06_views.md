@@ -268,13 +268,13 @@ class ViewController: UIView {
 ```
 
 ## Gestures
-* A UIView can get notified when a gestures happens
+* A `UIView` can get notified when a gestures happens
     * Raw gestures (touch down, moved, up etc.)
-    * We can react to predefined "guestures"
+    * We can react to predefined "gestures"
 * Gestures are recognized by instance of `UIGestureRecognizer`
     * Concrete subclasses are used never the base class
-    1. (recognize) Adding a guesture recognizer to a `UIView` (ask a `UIVew` to recognize a guesture)
-    2. (handle) Providing a method to "handle" that gesture (not necessarily by the `UIView)
+    1. (recognize) Adding a gesture recognizer to a `UIView` (ask a `UIVew` to recognize a gesture)
+    2. (handle) Providing a method to "handle" that gesture (not necessarily by the `UIView`)
 * "Recognize" is done by the Controller
 * "Handling" is provided either by the `UIView` or a `Controller`
 
