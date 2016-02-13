@@ -299,3 +299,4 @@ func translationInView(view: UIView) -> CGPoint //cumulative since start of reco
 func velocityInView(view: UIView) -> CGPoint    // how fast the finger is moving (points/s)
 func setTranslation(translation: CGPoint, inView: UIView)
 ```
+
