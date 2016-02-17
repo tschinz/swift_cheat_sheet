@@ -20,3 +20,9 @@ The Model is **What** your application is. It is here were all the algorithms et
 KVO = Key-Value Observer
 
 ## Multiple MVC
+For powerful apps multiple MVC's needs to be put together
+
+* iOS provides some Controllers whose View is "other MVC's". Examples:
+    * UITabBarController
+    * UISplitViewController
+    * UINavigationController
