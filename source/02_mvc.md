@@ -26,3 +26,6 @@ For powerful apps multiple MVC's needs to be put together
     * UITabBarController
     * UISplitViewController
     * UINavigationController
+
+### UITabBarController
+Tab bar can replace top part of the Screen with a different MVC
