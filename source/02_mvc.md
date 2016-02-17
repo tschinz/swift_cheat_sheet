@@ -31,4 +31,6 @@ For powerful apps multiple MVC's needs to be put together
 Tab bar can replace top part of the Screen with a different MVC bundle
 
 ### UISplitViewController
-Takes two MVC's and puts them side by side
+Takes two MVC's and puts them side by side (iPad only)
+* Left MVC = Master
+* Right MVC = Detail
