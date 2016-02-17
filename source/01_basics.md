@@ -189,7 +189,7 @@ let y = x &/ 0 // Division by zero y = 0
 ### Other Operators
 Operator | Purpose
 :---:    | ---
-??       | Nil coalescing
+??       | Nil coalescing (take left if not nil else right value)
 ?:       | Ternary conditional
 !        | Force unwrap object value
 ?        | Safely unwrap object value
