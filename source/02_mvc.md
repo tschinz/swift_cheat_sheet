@@ -22,13 +22,15 @@ KVO = Key-Value Observer
 ## Multiple MVC
 For powerful apps multiple MVC's needs to be put together
 
+![UINavigationController MVC](img/UINavigationController_mvc.svg)
+
 * iOS provides some Controllers whose View is "other MVC's". Examples:
     * UITabBarController
     * UISplitViewController
     * UINavigationController
 
 ### `UITabBarController`
-Tab bar can replace top part of the Screen with a different MVC bundle
+Tab bar can replace top part of the Screen with a different MVC bundle (e.g. Health App)
 
 ### `UISplitViewController`
 Takes two MVC's and puts them side by side (iPad only)
@@ -38,4 +40,11 @@ Takes two MVC's and puts them side by side (iPad only)
 Landscape mode = Both MVC's side by side
 Portrait mode = Only Detail view visible, Master view can be siped in from the left
 
+(e.g. Mail)
+
 ### `NavigationController`
+Can push and pop MVC's off of a stack.
+The Top MVC is shown an with it the Titlebar and left and right button is placed.
+
+
+(e.g. Settings)
