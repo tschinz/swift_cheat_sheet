@@ -1,9 +1,32 @@
 # Control Flow
 ## `if` - `else`
+```swift
+if condition1 == true {
+    // do something 
+} else if condition2 = true {
+    // do something else
+}
+
+
+```
 
 ## `if` - `let`
 
 ## `switch` - `case`
+```swift
+switch gesture.state {
+    case .Ended: fallthrough
+    case .Changed:
+let translation = gesture.translationInView(faceView)
+let happinessChange = -Int(translation.y / Constants.HappinessGestureScale) // translate PanPoint to Happiness scale
+if happinessChange != 0 {
+                happiness += happinessChange
+                gesture.setTranslation(CGPointZero, inView: faceView) // reset Translation
+            }
+            default: break
+        }
+
+```
 
 ## `for` - `in` loop
 
