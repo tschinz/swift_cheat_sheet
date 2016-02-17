@@ -8,9 +8,6 @@ if condition1 == true {
 } else {
     // do again something else
 }
-
-
-
 ```
 
 ## `if` - `let`
