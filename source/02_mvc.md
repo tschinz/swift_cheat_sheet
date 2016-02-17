@@ -27,10 +27,15 @@ For powerful apps multiple MVC's needs to be put together
     * UISplitViewController
     * UINavigationController
 
-### UITabBarController
+### `UITabBarController`
 Tab bar can replace top part of the Screen with a different MVC bundle
 
-### UISplitViewController
+### `UISplitViewController`
 Takes two MVC's and puts them side by side (iPad only)
 * Left MVC = Master
 * Right MVC = Detail
+
+Landscape mode = Both MVC's side by side
+Portrait mode = Only Detail view visible, Master view can be siped in from the left
+
+### `NavigationController`
