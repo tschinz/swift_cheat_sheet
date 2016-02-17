@@ -16,9 +16,9 @@ if condition1 == true {
 ```swift
 switch gesture.state {
     case .Ended: fallthrough // case defined and execute code in next case
-    case .Changed:  
+    case .Changed:           // other case
         // do something
-    default: break              // all cases needs to be defined
+    default: break           // all cases needs to be defined
 }
 
 ```
