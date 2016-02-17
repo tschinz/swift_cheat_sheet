@@ -20,7 +20,6 @@ switch gesture.state {
         // do something
     default: break           // all cases needs to be defined
 }
-
 ```
 
 ## `for` - `in` loop
