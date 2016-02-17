@@ -2,6 +2,7 @@
 
 * [Outline](source/00_outline.md)
 * [Basics](source/01_basics.md)
+* [MVC](source/02_mvc.md)
 * [Variables, Array, Dictionary, Range](source/02_properties.md)
 * [Data Structures, Methods, Objects](source/03_datastructures_methods.md)
 * [Control Flow](source/04_controlflow.md)
