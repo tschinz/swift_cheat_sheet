@@ -5,7 +5,10 @@ if condition1 == true {
     // do something 
 } else if condition2 = true {
     // do something else
+} else {
+    // do again something else
 }
+
 
 
 ```
