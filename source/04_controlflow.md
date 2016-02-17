@@ -42,7 +42,7 @@ protocol SomeProtocol: class, Inherited Protocol1, InheritedProtocol2 { // only 
 }
 ```
 
-### Implemtation
+### Implementation
 ```swift
 class SomeClass: SuperclassOfSomeClass, SomeProtocol, Another Protocol { // implementation via class
 enum SomeClass: SomeProtocol, AnotherProtocol {                          // implementation via struct
