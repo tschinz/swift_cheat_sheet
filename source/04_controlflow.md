@@ -15,16 +15,11 @@ if condition1 == true {
 ## `switch` - `case`
 ```swift
 switch gesture.state {
-    case .Ended: fallthrough
-    case .Changed:
-let translation = gesture.translationInView(faceView)
-let happinessChange = -Int(translation.y / Constants.HappinessGestureScale) // translate PanPoint to Happiness scale
-if happinessChange != 0 {
-                happiness += happinessChange
-                gesture.setTranslation(CGPointZero, inView: faceView) // reset Translation
-            }
-            default: break
-        }
+    case .Ended: fallthrough // case defined and execute code in next case
+    case .Changed:  
+        // do something
+    default: break              // all cases needs to be defined
+}
 
 ```
 
