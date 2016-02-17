@@ -19,3 +19,4 @@ The Model is **What** your application is. It is here were all the algorithms et
 * Notification & KVO - It can "send out" informations and any body connected can "listen in". 
 KVO = Key-Value Observer
 
+## Multiple MVC
