@@ -105,6 +105,7 @@ func prepareForSegue(segue: UIStoryBoardSegue, sender: AnyObject?) {
     if let identifier = segue.identifier {
         switch identifier {
             case "Show Graph":
+                // beause it is anyObject it needs to be turned into the correct class
                 if let vc = segue.destinationViewController as? MyController {
                     vc.property1 = ...
                     vc.callMethodToSetUp(...)
