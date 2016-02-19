@@ -96,6 +96,9 @@ func performSegueWithIdentifier(identifier. String, sender: AnyObject?)
 ```
 
 Identifier are used for preparing for a Segue. A Segue creates a new MVC which is empty, it needs to be prepared with the correct content.
+A Segue passes two informations:
+* The Identifier from the Storybaord
+* The Controller of the MVC you are segueing to (which was just created for you)
 
 ```swift
 func prepareForSegue(segue: UIStoryBoardSegue, sender: AnyObject?) {
