@@ -95,6 +95,7 @@ Segue always creates new instances of MVC
 func performSegueWithIdentifier(identifier. String, sender: AnyObject?)
 ```
 
+#### Prepare Segue
 Identifier are used for preparing for a Segue. A Segue creates a new MVC which is empty, it needs to be prepared with the correct content.
 A Segue passes two informations:
 * The Identifier from the Storybaord
@@ -117,3 +118,11 @@ func prepareForSegue(segue: UIStoryBoardSegue, sender: AnyObject?) {
 ```
 
 !!! Important. While preparing an MVC its outlet are not set yet.
+
+#### Prevent Segue
+Preventing segue from happening. You need to implement
+```swift
+func shouldPerfromSegueWithIdentifier(identifier: String?, sender: AnyObject?) -> Bool
+
+
+```
