@@ -109,7 +109,9 @@ func prepareForSegue(segue: UIStoryBoardSegue, sender: AnyObject?) {
                     vc.property1 = ...
                     vc.callMethodToSetUp(...)
                 }
+            default: break
         }
     }
 }
 ```
+
