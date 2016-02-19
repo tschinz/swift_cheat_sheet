@@ -67,3 +67,13 @@ var navigationController: UINavigationController? { get }
 // for example, the get the detail of the split view controller your are in...
 if let detailVC: UIViewController = splitViewController?.viewControllers[1] { ... }
 ```
+
+### Wiring up MVC's
+In Story board or Code but Storyboard is more common. For Storyboard
+* Drag out a SplitViewController
+* Ctrl drag from SplitViewController to the Master MVC
+* Ctrl drag from SplitViewController to the Detail MVC
+* Split View can only work on a Regular size device (iPhone is a compact device). Therefore t can't display Master and Detail on the same screen. The master need to be Embed in a n Navigation Controller
+    * Select Master
+    * `Editor->Embed In->NavigationController`
+    * 
