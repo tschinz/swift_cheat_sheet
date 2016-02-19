@@ -45,6 +45,25 @@ Portrait mode = Only Detail view visible, Master view can be siped in from the l
 ### `NavigationController`
 Can push and pop MVC's off of a stack.
 The Top MVC is shown an with it the Titlebar and left and right button is placed.
-
+You can put a MVC into the NavigationController Stack or push them off. The Sub MVC's are created and destroyed at that point.
 
 (e.g. Settings)
+
+### Accessing Sub MVC's
+You can access sub-MVC's via the `viewControllers` property
+```swift
+var viewControllers: [UIViewController] { get set } // possibly an optional
+```
+* For a Tabbar they are ordered left to right, in the array.
+* For a Split View, [0] is the master and [1] is the detail.
+* For a NavigationController, [0] is the root and the rest are in order on the stack.
+
+**Get ahold of the NC, SVC, TBC**
+Every `UIViewController` knows the SplitView, TabBar or Navigation Controller it is currently in. These are `UIViewController` properties:
+```swift
+var tabBarController: UITabBarController? { get }
+var splitViewController: UISplitViewController? { get }
+var navigationController: UINavigationController? { get }
+// for example, the get the detail of the split view controller your are in...
+if let detailVC: UIViewController = splitViewController?.viewControllers[1] { ... }
+```
