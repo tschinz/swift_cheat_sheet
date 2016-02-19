@@ -116,3 +116,4 @@ func prepareForSegue(segue: UIStoryBoardSegue, sender: AnyObject?) {
 }
 ```
 
+!!! Important. While preparing an MVC its outlet are not set yet.
