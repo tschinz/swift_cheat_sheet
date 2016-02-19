@@ -99,7 +99,7 @@ Identifier are used for preparing for a Segue. A Segue creates a new MVC which i
 A Segue passes two informations:
 * The Identifier from the Storybaord
 * The Controller of the MVC you are segueing to (which was just created for you)
-
+* sender is the Object from the storyboard (e.g. UIButton) which caused the segue to happen.
 ```swift
 func prepareForSegue(segue: UIStoryBoardSegue, sender: AnyObject?) {
     if let identifier = segue.identifier {
