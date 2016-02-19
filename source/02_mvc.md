@@ -83,3 +83,5 @@ Seques are used that one MVC can cause appear another MVC. There are different k
 * Show Detail Segue (will show in Detail of a SplitView or will push in a NavigationController)
 * Modal Segue ( take over the entire screen while the MVC us up)
 * Popover Segue () make the MVC appear in a little popover window
+
+Segue always creates new instances of MVC
