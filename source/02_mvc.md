@@ -76,4 +76,10 @@ In Story board or Code but Storyboard is more common. For Storyboard
 * Split View can only work on a Regular size device (iPhone is a compact device). Therefore t can't display Master and Detail on the same screen. The master need to be Embed in a n Navigation Controller
     * Select Master
     * `Editor->Embed In->NavigationController`
-    * 
+
+### Segues
+Seques are used that one MVC can cause appear another MVC. There are different kind of Segues
+* Show Segue (will push NavigationCtonroller, else Modal)
+* Show Detail Seque (will show in Detail of a SplitView or will push in a NavigationController)
+* Modal Seque ( take over the entire screen while the MVC us up)
+* Popover Seque () make the MVC appear in a little popover window
