@@ -94,3 +94,19 @@ Segue always creates new instances of MVC
 ```swift
 func performSegueWithIdentifier(identifier. String, sender: AnyObject?)
 ```
+
+Identifier are used for preparing for a Segue. A Segue creates a new MVC which is empty, it needs to be prepared with the correct content.
+
+```swift
+func prepareForSegue(segue: UIStoryBoardSegue, sender: AnyObject?) {
+    if let identifier = segue.identifier {
+        switch identifier {
+            case "Show Graph":
+                if let vc = segue.destinationViewController as? MyController {
+                    vc.property1 = ...
+                    vc.callMethodToSetUp(...)
+                }
+        }
+    }
+}
+```
