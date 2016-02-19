@@ -80,6 +80,6 @@ In Story board or Code but Storyboard is more common. For Storyboard
 ### Segues
 Seques are used that one MVC can cause appear another MVC. There are different kind of Segues
 * Show Segue (will push NavigationCtonroller, else Modal)
-* Show Detail Seque (will show in Detail of a SplitView or will push in a NavigationController)
-* Modal Seque ( take over the entire screen while the MVC us up)
-* Popover Seque () make the MVC appear in a little popover window
+* Show Detail Segue (will show in Detail of a SplitView or will push in a NavigationController)
+* Modal Segue ( take over the entire screen while the MVC us up)
+* Popover Segue () make the MVC appear in a little popover window
