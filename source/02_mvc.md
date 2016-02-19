@@ -85,3 +85,12 @@ Seques are used that one MVC can cause appear another MVC. There are different k
 * Popover Segue () make the MVC appear in a little popover window
 
 Segue always creates new instances of MVC
+
+#### Creating Segue
+* Ctrl drag from two View into each other
+* Click on the Circle in the middle of the segue
+* Choose an Identifier for the Segue from the Attribute Inspector
+* Perform Segue in code, with the method from UIViewController. (Not often mosten made in Storyboard)
+```swift
+func performSegueWithIdentifier(identifier. String, sender: AnyObject?)
+```
