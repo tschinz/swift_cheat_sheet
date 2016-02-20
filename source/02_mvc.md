@@ -139,6 +139,7 @@ func prepareForSegue(segue: UIStoryBoardSegue, sender: AnyObject) {
         switch identifier {
             case: "Do something in a popover Segue":
                 if let vc = segue.destinationViewController as? MyController {
+                    // get popover presentation controller
                     if let ppc = vc.popoverPresentationController {
                         ppc.permittedArrowDirections = UIPopoverArrowDirection.Any
                         ppc.delegate = self
