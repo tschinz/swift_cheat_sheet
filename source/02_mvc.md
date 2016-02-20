@@ -150,3 +150,18 @@ func prepareForSegue(segue: UIStoryBoardSegue, sender: AnyObject) {
     }
 }
 ```
+
+#### Popover Presentation Controller
+The Popover Presentation Delegate (see code above) can manipulate and adapt the popover
+** Adaptation **
+```swift
+func adaptivePresentationStyleForPresentationContoller(UIPresentationController) -> UIModelPresentationStyle {
+    return UIModalPresentationStyle.None // default .FullScreen
+}
+```
+** FullScreen **
+```swift
+func presentationController(UIPresentationController, viewControllerForAdaptivePresentationStyle: UIModalPresentationStyle) -> UIViewController? {
+    // return a UIViewController to use (e.g. Wrap Navigation Controller around your MVC)
+}
+```
