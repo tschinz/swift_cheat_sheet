@@ -165,3 +165,8 @@ func presentationController(UIPresentationController, viewControllerForAdaptiveP
     // return a UIViewController to use (e.g. Wrap Navigation Controller around your MVC)
 }
 ```
+** Size **
+Popover should be the needed size of the containing MVC.
+```swift
+var preferredContentSize: CGSize
+```
