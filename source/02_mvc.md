@@ -123,6 +123,29 @@ func prepareForSegue(segue: UIStoryBoardSegue, sender: AnyObject?) {
 Preventing segue from happening. You need to implement
 ```swift
 func shouldPerfromSegueWithIdentifier(identifier: String?, sender: AnyObject?) -> Bool
+```
 
+### Popover
+A popover open en entire MVC. The rest of the screen is grayed out. The Pointer of the Popover points to the button created the Popover.
 
+* Popover works with Segue as the other ViewControllers
+* Preparing for a popover
+    * All segues are managed via a `UIPresentationController`
+
+#### Preparing a Popover
+```swift
+func prepareForSegue(segue: UIStoryBoardSegue, sender: AnyObject) {
+    if let identifier = segue.identifier {
+        switch identifier {
+            case: "Do something in a popover Segue":
+                if let vc = segue.destinationViewController as? MyController {
+                    if let ppc = vc.popoverPresentationController {
+                        ppc.permittedArrowDirections = UIPopoverArrowDirection.Any
+                        ppc.delegate = self
+                    }
+                    // more prepration here
+                }
+        }
+    }
+}
 ```
