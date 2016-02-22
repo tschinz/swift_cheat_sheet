@@ -347,5 +347,11 @@ var numberOfTapsRequired: Int    // single tap, double tap, etc.
 var numberOfTouchesRequired: Int // finger count
 ```
 
-
-
+### View Controller
+**Live Cycle**
+* Creation: MVC is most often instantiated out of the storyboard
+* Preparing
+* 
+    * Appearing and disappearing
+    * Geometry changes
+    * Low Memory Situation
