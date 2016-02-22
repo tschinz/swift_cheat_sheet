@@ -351,7 +351,56 @@ var numberOfTouchesRequired: Int // finger count
 **Live Cycle**
 * Creation: MVC is most often instantiated out of the storyboard
 * Preparing
-* 
-    * Appearing and disappearing
-    * Geometry changes
-    * Low Memory Situation
+* Outlet setting
+* `viewDidLoad()` is called:
+    * Good place for setup code
+    ```swift
+    override func viewDidLoad() {
+        super.viewDidLoad() // always have super the chance in lifecycle methods
+        // do some MVC setup
+        // update your UI for your Model
+        // geometry is not set, don't do geometry related things things 
+    }
+    ```
+* Geometry will be set
+* Appearing `viewWillAppear` & `viewDidAppear` & `viewWillDisappear` & `viewDidDisappear`
+    ```swift
+    func viewWillAppear(animated: Bool) { // animated is wether your are appearing over time
+        super.viewWillAppear(animated)
+        // geometry is set
+        // some expensive stuff
+    }
+    
+    func viewDidAppear(animated: Bool) {
+        super.viewDidAppear(animated) // all super
+        // ...
+    }
+    
+    override func viewWillDisappear(animated: Bool) {
+        super.viewWillDisappear(animated) // call super method
+        // do some cleanup
+        // not do anything time-consuming or the app will be slow
+    }
+    
+    func viewDidDisappear(animated: Bool) {
+        super.viewDidDisappear(animated)
+    }
+    ```
+* Geometry changes
+    * If the layout can change these two functions are called. These functions can be called alot.
+    ```swift
+    func viewWillLayoutSubviews()
+    // Autolayout is happening in between
+    func viewDidLayoutSubviews()
+    ```
+    * Autolayout is the same as bound change (see above)
+    ```swift
+    func viewWillTransitionToSize(size: CGSize, withTransitionCoordinator: UIViewControllerTransistionCoordinator)
+    ```
+* Low Memory Situation
+    ```swift
+    func didReceiveMemoryWarning() { // happends rarely
+        // Anything big in use should be freed by setting the pointers to it to nil
+    }
+    ```
+
