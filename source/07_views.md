@@ -267,6 +267,39 @@ class ViewController: UIView {
 }
 ```
 
+## Autolayout
+The main rules for autolayout
+* Using the dash blue lines
+* Ctrl dragging between View to make relationships
+* Use Pin and Arrange popovers in the lower right corner
+* Reset to Suggested Constraints
+* Document outline, where you can see all defined constraints
+* Size Inspector for read and edit details of the constraint
+* Do as much as possible in storyboard
+
+### Autorotation
+In some cases autorotation changes the view drastically and things needs be rearranged (e.g. Calculator Buttons).
+
+### Size Classes
+There two size classes in iOS:
+* Compact
+* Regular
+
+**Portrait**
+|    | Width   | Height | | Comments |
+| -- | -- | -- | |
+| iPhone6+ | Compact | Regular | |
+| iPhone | Compact | Regular | |
+| iPad | Regluar | Regular | Master in Split view will be Compact x Regular |
+
+**Landscape**
+|    | Width   | Height | | Comments |
+| -- | -- | -- | |
+| iPhone6+ | Regular | Compact | |
+| iPhone | Compact | Compact | |
+| iPad | Regluar | Regular | Master in Split view will be Compact x Regular |
+
+
 ## Gestures
 * A `UIView` can get notified when a gestures happens
     * Raw gestures (touch down, moved, up etc.)
