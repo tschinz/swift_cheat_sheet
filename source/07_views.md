@@ -301,6 +301,11 @@ There two size classes in iOS:
 | iPhone   | Compact | Compact | |
 | iPad     | Regular | Regular | Master in Split view will be Compact x Regular |
 
+MVC can also get their size class.
+```swift
+let mySizeClasse: UIUSerInterfaceSizeClass = self.traitCollection.horizontalSieClass
+// will return either .Compact or .Regular
+```
 
 ## Gestures
 * A `UIView` can get notified when a gestures happens
