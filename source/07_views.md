@@ -291,7 +291,7 @@ There two size classes in iOS:
 | --       | --      | --      | -- |
 | iPhone6+ | Compact | Regular | |
 | iPhone   | Compact | Regular | |
-| iPad     | Regluar | Regular | Master in Split view will be Compact x Regular |
+| iPad     | Regular | Regular | Master in Split view will be Compact x Regular |
 
 **Landscape**
 
@@ -299,7 +299,7 @@ There two size classes in iOS:
 | --       | --      | --      | -- |
 | iPhone6+ | Regular | Compact | |
 | iPhone   | Compact | Compact | |
-| iPad     | Regluar | Regular | Master in Split view will be Compact x Regular |
+| iPad     | Regular | Regular | Master in Split view will be Compact x Regular |
 
 
 ## Gestures
