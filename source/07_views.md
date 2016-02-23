@@ -403,4 +403,6 @@ var numberOfTouchesRequired: Int // finger count
         // Anything big in use should be freed by setting the pointers to it to nil
     }
     ```
+* `awakeFromNib`
+    * all object that come from out of the storyboard getting this method before it's outlets are set.
 
