@@ -286,18 +286,20 @@ There two size classes in iOS:
 * Regular
 
 **Portrait**
-|    | Width   | Height | | Comments |
-| -- | -- | -- | |
+
+| Device   | Width   | Height  | Comments |
+| --       | --      | --      | -- |
 | iPhone6+ | Compact | Regular | |
-| iPhone | Compact | Regular | |
-| iPad | Regluar | Regular | Master in Split view will be Compact x Regular |
+| iPhone   | Compact | Regular | |
+| iPad     | Regluar | Regular | Master in Split view will be Compact x Regular |
 
 **Landscape**
-|    | Width   | Height | | Comments |
-| -- | -- | -- | |
+
+| Device   | Width   | Height  | Comments |
+| --       | --      | --      | -- |
 | iPhone6+ | Regular | Compact | |
-| iPhone | Compact | Compact | |
-| iPad | Regluar | Regular | Master in Split view will be Compact x Regular |
+| iPhone   | Compact | Compact | |
+| iPad     | Regluar | Regular | Master in Split view will be Compact x Regular |
 
 
 ## Gestures
