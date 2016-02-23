@@ -304,7 +304,7 @@ There two size classes in iOS:
 MVC can also get their size class.
 ```swift
 let mySizeClasse: UIUSerInterfaceSizeClass = self.traitCollection.horizontalSieClass
-// will return either .Compact or .Regular
+// will return either .Compact or .Regular or .Unspecified
 ```
 
 ## Gestures
