@@ -148,7 +148,21 @@ grapher.yForX = { (x:Double) -> Double? in
 ```
 
 ** Capture Danger **
-There can be memory management problems. It can create a memory cycle. Closures capture pointers back at the closure. There will always be a pointer to the closure and to the captured thing, neither will ever be able to leave the heap. 
+There can be memory management problems. It can create a memory cycle. Closures capture pointers back at the closure. There will always be a pointer to the closure and to the captured thing, neither will ever be able to leave the heap.
+
+```swift
+class Foo {
+    var action: () -> Void = {}
+    func show(value: Int) {println("\(value)")}
+    func setupMyAction() {
+        var x:  Int = 0
+        action = {
+            x = x + 1
+            self.show()
+        }
+    }
+}
+```
 
 ## Array
 An `Array` is a list of multidimensional elements of the same type
