@@ -285,6 +285,7 @@ There two size classes in iOS:
 * Compact
 * Regular
 
+See all devices and theirs size classes in either portrait or landscape.
 ![Size Classes](img/size_classes.svg)
 
 MVC can also get their size class.
