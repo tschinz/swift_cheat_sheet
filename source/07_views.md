@@ -284,6 +284,7 @@ In some cases autorotation changes the view drastically and things needs be rear
 There two size classes in iOS:
 * Compact
 * Regular
+* Any
 
 See all devices and theirs size classes in either portrait or landscape.
 ![Size Classes](img/size_classes.svg)
