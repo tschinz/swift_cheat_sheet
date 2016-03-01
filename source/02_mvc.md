@@ -53,7 +53,7 @@ You can put a MVC into the NavigationController Stack or push them off. The Sub 
 ### `UIScrollView`
 * Set content size
 * Add frames to the content area
-
+* Reposition the view (the window of the screen inside the screen)
 ```swift
 scrollView.contentSize = CGSize(width: 3000, height:2000) // size of the scroll view
 // Add logo with 
