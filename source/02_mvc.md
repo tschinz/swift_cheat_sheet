@@ -76,8 +76,6 @@ Other things which can be done in `scrollView`
 * Style of scrolling indicator (`flashScrollIndicator`)
 * Wheter your actual content is inset from the content area (`contentInset` property)
 
-
-
 ### Accessing Sub MVC's
 You can access sub-MVC's via the `viewControllers` property
 ```swift
