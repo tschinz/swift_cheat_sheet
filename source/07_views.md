@@ -285,21 +285,7 @@ There two size classes in iOS:
 * Compact
 * Regular
 
-**Portrait**
-
-| Device   | Width   | Height  | Comments |
-| --       | --      | --      | -- |
-| iPhone6+ | Compact | Regular | |
-| iPhone   | Compact | Regular | |
-| iPad     | Regular | Regular | Master in Split view will be Compact x Regular |
-
-**Landscape**
-
-| Device   | Width   | Height  | Comments |
-| --       | --      | --      | -- |
-| iPhone6+ | Regular | Compact | |
-| iPhone   | Compact | Compact | |
-| iPad     | Regular | Regular | Master in Split view will be Compact x Regular |
+![Size Classes](img/size_classes.svg)
 
 MVC can also get their size class.
 ```swift
