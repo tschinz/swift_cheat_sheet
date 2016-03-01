@@ -3,7 +3,7 @@
 * [Outline](source/00_outline.md)
 * [Basics](source/01_basics.md)
 * [MVC](source/02_mvc.md)
-* [Variables, Array, Dictionary, Range](source/03_properties.md)
+* [Variables, Closures, Array, Dictionary, Range](source/03_properties.md)
 * [Data Structures, Methods, Objects](source/04_datastructures_methods.md)
 * [Control Flow](source/05_controlflow.md)
 * [NS Classes](source/06_nsclasses.md)
