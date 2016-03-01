@@ -50,6 +50,21 @@ You can put a MVC into the NavigationController Stack or push them off. The Sub 
 
 (e.g. Settings)
 
+### `UIScrollView`
+* Set content size
+* Add frames to the content area
+
+```swift
+scrollView.contentSize = CGSize(width: 3000, height:2000) // size of the scroll view
+// Add logo with 
+logo.frame= CGRect(x: 2700, y:50, width: 120, height: 180)
+scrollView.addSubview(logo)
+// add another image to the view at a different locatio
+aerial.frame = CGRect(x: 150, y: 200, width: 2500, height:1600)
+scrollView.addSubview(aerial)
+```
+
+
 ### Accessing Sub MVC's
 You can access sub-MVC's via the `viewControllers` property
 ```swift
