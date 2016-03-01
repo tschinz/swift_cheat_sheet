@@ -130,6 +130,23 @@ switch x {
 }
 ```
 
+## Closures
+A closure capture variables in the surrounding context
+
+```swift
+class Grapher {
+    car yforX: ((x:Double) -> Double?)?
+}
+
+let grapher = Grapher()
+let graphingBrain = CalculatorBrain()
+graphingBrain.program = theProgramToGraph
+grapher.yForX = { (x:Double) -> Double? in
+    graphingBrain.variableValues["M"] = x
+    return graphingBrain.evaluate() // gets captured and reused each time yForX is called
+}
+```
+
 ## Array
 An `Array` is a list of multidimensional elements of the same type
 ```swift
