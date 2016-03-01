@@ -88,8 +88,8 @@ func viewForZoomingInScrollView(sender: UIScrollView) -> UIView
 
 // Zoom in program
 var zoomScale: CGFloat
-func setZoomScale(CGFloat, animated: Bool)
-func zoomToRect(CGRect, animated: Bool)
+func setZoomScale(CGFloat, animated: Bool) // Zoom to a different scale (in middle of screen)
+func zoomToRect(CGRect, animated: Bool)    // Zoom to a rectangle (fill screen as much as possible)
 ```
 
 
