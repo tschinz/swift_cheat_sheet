@@ -135,7 +135,7 @@ A closure capture variables in the surrounding context
 
 ```swift
 class Grapher {
-    car yforX: ((x:Double) -> Double?)?
+    var yforX: ((x:Double) -> Double?)?
 }
 
 let grapher = Grapher()
