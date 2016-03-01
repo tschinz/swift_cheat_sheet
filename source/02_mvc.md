@@ -85,6 +85,11 @@ scrollView.maximumZoomScale = 2.0 // max double its normal size
 
 // Will not work without delegate
 func viewForZoomingInScrollView(sender: UIScrollView) -> UIView
+
+// Zoom in program
+var zoomScale: CGFloat
+func setZoomScale(CGFloat, animated: Bool)
+func zoomToRect(CGRect, animated: Boolx)
 ```
 
 
