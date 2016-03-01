@@ -64,6 +64,9 @@ scrollView.addSubview(logo)
 // Add another image to the view at a different location
 aerial.frame = CGRect(x: 150, y: 200, width: 2500, height:1600)
 scrollView.addSubview(aerial)
+
+// Scroll in program
+func scrollRectToVisible(CGRect, animated: Bool)
 ```
 
 
