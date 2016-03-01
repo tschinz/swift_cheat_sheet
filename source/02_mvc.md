@@ -67,7 +67,15 @@ scrollView.addSubview(aerial)
 
 // Scroll in program
 func scrollRectToVisible(CGRect, animated: Bool)
+
 ```
+
+Other things which can be done in `scrollView`
+* Enable or disable scrolling
+* Lock scolling direction
+* Style of scrolling indicator (`flashScrollIndicator`)
+* Wheter your actual content is inset from the content area (`contentInset` property)
+
 
 
 ### Accessing Sub MVC's
