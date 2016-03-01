@@ -500,7 +500,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.35"
-     inkscape:cx="1122.7993"
+     inkscape:cx="1039.9422"
      inkscape:cy="821.10708"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -531,7 +531,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -574,7 +574,7 @@
            id="tspan5275-3"
            x="472.98495"
            y="561.52832"
-           style="font-size:203.94656372px;fill:#000000">iPad</tspan></text>
+           style="font-size:203.94656372px;fill:#000000;-inkscape-font-specification:'Helvetica Neue';font-family:'Helvetica Neue';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal">iPad</tspan></text>
     </g>
     <g
        id="g5828"
@@ -1195,9 +1195,9 @@
                  id="tspan5345"
                  x="832.31335"
                  y="715.3772"
-                 style="font-size:286.94659424px;fill:#000000">6<tspan
+                 style="font-size:286.94659424px;fill:#000000;-inkscape-font-specification:'Helvetica Neue';font-family:'Helvetica Neue';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal">6<tspan
    id="tspan5425"
-   style="font-size:179.34162903px">+</tspan></tspan></text>
+   style="font-size:179.34162903px;-inkscape-font-specification:'Helvetica Neue';font-family:'Helvetica Neue';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal">+</tspan></tspan></text>
           </g>
           <g
              id="g5347"
@@ -1365,7 +1365,8 @@
          sodipodi:role="line"
          id="tspan5460"
          x="245.14285"
-         y="-524.78064">Compact</tspan></text>
+         y="-524.78064"
+         style="-inkscape-font-specification:'Helvetica Neue';font-family:'Helvetica Neue';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal">Compact</tspan></text>
     <text
        sodipodi:linespacing="125%"
        id="text5462"
@@ -1376,7 +1377,8 @@
          y="-525.30798"
          x="752.28571"
          id="tspan5464"
-         sodipodi:role="line">Any</tspan></text>
+         sodipodi:role="line"
+         style="-inkscape-font-specification:'Helvetica Neue';font-family:'Helvetica Neue';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal">Any</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:80px;line-height:125%;font-family:'Abadi MT Condensed Light';-inkscape-font-specification:'Abadi MT Condensed Light';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -1387,7 +1389,8 @@
          sodipodi:role="line"
          id="tspan5468"
          x="1253.4286"
-         y="-524.07751">Regular</tspan></text>
+         y="-524.07751"
+         style="-inkscape-font-specification:'Helvetica Neue';font-family:'Helvetica Neue';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal">Regular</tspan></text>
     <text
        sodipodi:linespacing="125%"
        id="text5470"
@@ -1398,7 +1401,8 @@
          y="-169.92349"
          x="-202.28569"
          id="tspan5472"
-         sodipodi:role="line">Compact</tspan></text>
+         sodipodi:role="line"
+         style="-inkscape-font-specification:'Helvetica Neue';font-family:'Helvetica Neue';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal">Compact</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:80px;line-height:125%;font-family:'Abadi MT Condensed Light';-inkscape-font-specification:'Abadi MT Condensed Light';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -1409,7 +1413,8 @@
          sodipodi:role="line"
          id="tspan5476"
          x="-178.77007"
-         y="810.07654">Regular</tspan></text>
+         y="810.07654"
+         style="-inkscape-font-specification:'Helvetica Neue';font-family:'Helvetica Neue';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal">Regular</tspan></text>
     <text
        sodipodi:linespacing="125%"
        id="text5478"
@@ -1420,7 +1425,8 @@
          y="314.93369"
          x="-99.277878"
          id="tspan5480"
-         sodipodi:role="line">Any</tspan></text>
+         sodipodi:role="line"
+         style="-inkscape-font-specification:'Helvetica Neue';font-family:'Helvetica Neue';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal">Any</tspan></text>
     <text
        sodipodi:linespacing="125%"
        id="text5482"
@@ -1432,7 +1438,8 @@
          y="1588.4062"
          x="-298.94424"
          id="tspan5484"
-         sodipodi:role="line">Vertical</tspan></text>
+         sodipodi:role="line"
+         style="-inkscape-font-specification:'Helvetica Neue';font-family:'Helvetica Neue';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal">Vertical</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:80px;line-height:125%;font-family:'Abadi MT Condensed Light';-inkscape-font-specification:'Abadi MT Condensed Light';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -1443,7 +1450,8 @@
          sodipodi:role="line"
          id="tspan5488"
          x="749.80469"
-         y="1146.4062">Horizontal</tspan></text>
+         y="1146.4062"
+         style="-inkscape-font-specification:'Helvetica Neue';font-family:'Helvetica Neue';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal">Horizontal</tspan></text>
     <g
        transform="matrix(0,0.39225962,-0.39225962,0,1486.3694,731.52435)"
        id="g5490">
@@ -1474,7 +1482,7 @@
          x="472.98495"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30.5919838px;line-height:125%;font-family:'Abadi MT Condensed Light';-inkscape-font-specification:'Abadi MT Condensed Light';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          xml:space="preserve"><tspan
-           style="font-size:203.94656372px;fill:#000000"
+           style="font-size:203.94656372px;fill:#000000;-inkscape-font-specification:'Helvetica Neue';font-family:'Helvetica Neue';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal"
            y="561.52832"
            x="472.98495"
            id="tspan5502"
@@ -2096,9 +2104,9 @@
                id="tspan5746"
                x="832.31335"
                y="715.3772"
-               style="font-size:286.94659424px;fill:#000000">6<tspan
+               style="font-size:286.94659424px;fill:#000000;-inkscape-font-specification:'Helvetica Neue';font-family:'Helvetica Neue';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal">6<tspan
    id="tspan5748"
-   style="font-size:179.34162903px">+</tspan></tspan></text>
+   style="font-size:179.34162903px;-inkscape-font-specification:'Helvetica Neue';font-family:'Helvetica Neue';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal">+</tspan></tspan></text>
         </g>
         <g
            id="g5750"
