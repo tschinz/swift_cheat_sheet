@@ -92,8 +92,6 @@ func setZoomScale(CGFloat, animated: Bool) // Zoom to a different scale (in midd
 func zoomToRect(CGRect, animated: Bool)    // Zoom to a rectangle (fill screen as much as possible)
 ```
 
-
-
 ### Accessing Sub MVC's
 You can access sub-MVC's via the `viewControllers` property
 ```swift
