@@ -89,7 +89,7 @@ func viewForZoomingInScrollView(sender: UIScrollView) -> UIView
 // Zoom in program
 var zoomScale: CGFloat
 func setZoomScale(CGFloat, animated: Bool)
-func zoomToRect(CGRect, animated: Boo)
+func zoomToRect(CGRect, animated: Bool)
 ```
 
 
