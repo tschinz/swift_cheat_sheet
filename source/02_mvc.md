@@ -82,6 +82,9 @@ Zooming is affecting the scroll view `contentSize` and `contentOffset`.
 // They needed to be set for enabling zoom
 scrollView.minimumZoomScale = 0.5 // min half of its normal size
 scrollView.maximumZoomScale = 2.0 // max double its normal size
+
+// Will not work without delegate
+func viewForZoomingInScrollView(sender: UIScrollView) -> UIView
 ```
 
 
