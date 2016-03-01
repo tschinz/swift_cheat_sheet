@@ -79,9 +79,12 @@ Other things which can be done in `scrollView`
 All `UIView`'s have a property `transform` which is an affine transformation (`translate`, `scale`, `rotate`).
 Zooming is affecting the scroll view `contentSize` and `contentOffset`.
 ```swift
+// They needed to be set for enabling zoom
 scrollView.minimumZoomScale = 0.5 // min half of its normal size
 scrollView.maximumZoomScale = 2.0 // max double its normal size
 ```
+
+
 
 ### Accessing Sub MVC's
 You can access sub-MVC's via the `viewControllers` property
