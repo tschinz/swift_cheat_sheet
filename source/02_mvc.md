@@ -59,7 +59,7 @@ scrollView.contentSize = CGSize(width: 3000, height:2000) // size of the scroll 
 // Add logo with 
 logo.frame= CGRect(x: 2700, y:50, width: 120, height: 180)
 scrollView.addSubview(logo)
-// add another image to the view at a different locatio
+// Add another image to the view at a different location
 aerial.frame = CGRect(x: 150, y: 200, width: 2500, height:1600)
 scrollView.addSubview(aerial)
 ```
