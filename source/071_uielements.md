@@ -16,7 +16,7 @@ func textFieldShouldReturn(sender: UITextField) // sent when Return key is press
 ```
 Returns whether to do a normal processing when Return key is pressed (e.g. target/action).
 
-## `Keyboard`
+### `Keyboard`
 Controlling the appearance of the keyboard
 Set the properties in the `UITextInputTraits` protocol (which `UITextField` implements).
 ```swift
@@ -28,4 +28,18 @@ var UIKeyboardType keyboardType // ASCII, URL, PhonePAd etc.
 ```
 
 The keyboard comes always up **over** other views.
-* You may need to adjust your UI for that. The TextField should always be visible
+* You may need to adjust your UI for that. The TextField should always be visible. You can react to
+```swift
+UIKeyboard{Will,Did}{Show,Hide}Notifications // send to UIWindow
+```
+You can register a method to get called when a named "event" occures like this
+#### Notifications
+```swift
+NSNotificationCenter.defaultCenter().addObserver(self,
+                                   selector: "theKeyboardAppeared:",
+                                   name: UIKeyboardDidShowNotification,
+                                   object: view.window)
+```
+The Event here is UIKeyboardDidShowNotification. The object is the one who is causing the event to happen (our MVC's window). `func theKeyboardAppeared(notification: NSNotification)` will get called when it happens. The `notification.userInfo` will have details about the appearance.
+`UITableViewController` listens for this & scrolls table automatically if a row has a UITextField.
+ 
