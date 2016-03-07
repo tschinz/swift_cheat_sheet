@@ -78,6 +78,21 @@ There are two styles of TableView's.
 * Static and Grouped
 ![UITableView Grouped](uitableview_grouped.gif)
 
+### Elements
+* Elements
+  * Table Header
+  * Sections
+  * Section Header
+  * Table Cell
+  * Section Footer
+  * Table Footer
+
+Cell Types
+* Subtitle `UITableViewCellStyle.Subtitle`
+* Basic `.Default`
+* Right Detail `Value1`
+* Left Detail `.Value2`
+
 ##### Multi-dimensional Tables
 Usually done via a `UINavigationController` with multiple MVC's where View is `UITableView`.
 
