@@ -70,10 +70,12 @@ Very important class for displaying data in a table
  * Very efficient even with very large sets of data
 
 There are two styles of TableView's.
-Plain
+**Plain**
+* Dynamic List
 ![UITableView Plain](uitableview_plain.png)
 
-Grouped
+**Grouped**
+* Static and Grouped
 ![UITableView Grouped](uitableview_grouped.gif)
 
 ##### Multi-dimensional Tables
