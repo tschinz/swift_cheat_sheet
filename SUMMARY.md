@@ -6,6 +6,7 @@
 * [Variables, Closures, Array, Dictionary, Range](source/03_properties.md)
 * [Data Structures, Methods, Objects](source/04_datastructures_methods.md)
 * [Control Flow](source/05_controlflow.md)
+* [Multithreading](source/06_multithreading.md)
 * [NS Classes](source/06_nsclasses.md)
 * [Views](source/07_views.md)
 * [Other](source/08_other.md)
