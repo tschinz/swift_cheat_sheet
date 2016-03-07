@@ -149,8 +149,8 @@ grapher.yForX = { (x:Double) -> Double? in
 
 ** Capture Danger **
 There can be memory management problems. It can create a memory cycle. Closures capture pointers back at the closure. There will always be a pointer to the closure and to the captured thing, neither will ever be able to leave the heap.
-
 ```swift
+## Example with capture danger
 class Foo {
     var action: () -> Void = {}
     func show(value: Int) {println("\(value)")}
@@ -166,6 +166,25 @@ class Foo {
     }
 }
 ```
+** self has a pointer to the closure and closure has a pointer to the x (self)** They can never be released, therefore you need to specify the ``unowned``  keyword.
+```swift
+class Foo {
+    var action: () -> Void = {}
+    func show(value: Int) {println("\(value)")}
+    func setupMyAction() {
+        var x:  Int = 0
+        action = { [unowned self] in
+            x = x + 1
+            self.show()
+        }
+    }
+    func doMyAction10times() {
+        for i in 1..10 { action() }
+    }
+}
+```
+
+
 
 ## Array
 An `Array` is a list of multidimensional elements of the same type
