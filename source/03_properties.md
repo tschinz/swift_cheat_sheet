@@ -169,8 +169,6 @@ class Foo {
 ```
 ** self has a pointer to the closure and closure has a pointer to the x (self)** They can never be released, therefore you need to specify the ``unowned``  keyword.
 
-
-
 ## Array
 An `Array` is a list of multidimensional elements of the same type
 ```swift
