@@ -42,4 +42,40 @@ NSNotificationCenter.defaultCenter().addObserver(self,
 ```
 The Event here is UIKeyboardDidShowNotification. The object is the one who is causing the event to happen (our MVC's window). `func theKeyboardAppeared(notification: NSNotification)` will get called when it happens. The `notification.userInfo` will have details about the appearance.
 `UITableViewController` listens for this & scrolls table automatically if a row has a UITextField.
- 
+
+### Other properties & functionality
+```swift
+// Propterty
+var clearsOnBeginEditing: Bool
+var adjustFontSizeToFitWidth: Bool
+var minimumFontSize: CGFloat // always set this if you set adjustFontSizeToFitWidth
+var placeholder: String // drown on gray when TextField is empty
+var background/disableBackground: UIImage
+var defaultTextAttributes: Dictionary // applies to entire Text
+
+// Functionality
+// UITextField have left and right overlays
+// Keyboard have accessory views appearing above the keyboard
+var inputAccessoryView: UIView // UITextField method
+```
+
+
+
+## `UITableView`
+Very important class for displaying data in a table
+ * One-dimensional table
+ * Subclass of `UIScrollView`
+ * Table can be static or dynamic
+ * Lot of customization via a `dataSource` protocol and a `delegate` protocol
+ * Very efficient even with very large sets of data
+
+There are two styles of TableView's.
+Plain
+![UITableView Plain](uitableview_plain.gif)
+
+Grouped
+![UITableView Grouped](uitableview_grouped.gif)
+
+##### Multi-dimensional Tables
+Usually done via a `UINavigationController` with multiple MVC's where View is `UITableView`.
+
