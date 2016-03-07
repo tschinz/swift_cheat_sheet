@@ -433,4 +433,3 @@ var numberOfTouchesRequired: Int // finger count
     ```
 * `awakeFromNib`
     * all object that come from out of the storyboard getting this method before it's outlets are set.
-
