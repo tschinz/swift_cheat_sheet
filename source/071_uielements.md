@@ -71,7 +71,7 @@ Very important class for displaying data in a table
 
 There are two styles of TableView's.
 Plain
-![UITableView Plain](uitableview_plain.gif)
+![UITableView Plain](uitableview_plain.png)
 
 Grouped
 ![UITableView Grouped](uitableview_grouped.gif)
