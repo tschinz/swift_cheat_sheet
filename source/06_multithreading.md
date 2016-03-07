@@ -24,8 +24,32 @@ iOS are creating those queue as needed.
 ```swift
 let queue dispatch_queue_t = <get the queue you want....>
 dispatch_async(queue) {/* fo what you want to do here */}
+```
+#### Quality of Service
+Most non-main-queue work will happen on a concurrent queue with a certain quality of service.
+```swift
+QOS_CLASS_USER_INTERACTIVE // quick and high priority
+QOS_CLASS_USER_INITIATED   // high priority, might take time
+QOS_CLASS_UTILITY          // long running
+QOS_CLASS_BACKGROUND       // user not concerned with this (prefetching etc.)
+let qos = INT(<one of the above>.value) // historical reasons
+let queue = dispatch_get_global_queue(qos, 0) 
+```
+These queues can be used for work that won't block the main queue.
 
-
+#### Create serial queue
+If you need serialization. E.g. downloading a bunch of things from a certain website but you don't want to deluge that website, so you queue the request up serially *OR* maybe the things you are doing depend on each other in a serial fashion.
+```swift
+let serialQ = dispatch_queue_create("name", DISPATCH_QUEUE_SERIAL)
 ```
 
+### Do something in the future
+```swift
+let delayInSeconds = 25.0
+let delay = Int64(delayInSeconds*Double(NSEC_PER_MSEC))
+let dispatchTime = dispatch_time(DISPATCH_TIME_NOW, delay) // adds delay to now
+dispatch_after(dispatchTime, dispatch_get_main_queue()) {
+  // do something on the main queue 25 seconds from now
+}
+```
 
