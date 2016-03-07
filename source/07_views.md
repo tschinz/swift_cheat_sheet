@@ -392,6 +392,7 @@ var numberOfTouchesRequired: Int // finger count
     ```
 * Geometry will be set
 * Appearing `viewWillAppear` & `viewDidAppear` & `viewWillDisappear` & `viewDidDisappear`
+
     ```swift
     func viewWillAppear(animated: Bool) { // animated is wether your are appearing over time
         super.viewWillAppear(animated)
@@ -426,6 +427,7 @@ var numberOfTouchesRequired: Int // finger count
     func viewWillTransitionToSize(size: CGSize, withTransitionCoordinator: UIViewControllerTransistionCoordinator)
     ```
 * Low Memory Situation
+
     ```swift
     func didReceiveMemoryWarning() { // happends rarely
         // Anything big in use should be freed by setting the pointers to it to nil
