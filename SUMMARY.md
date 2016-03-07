@@ -9,6 +9,7 @@
 * [Multithreading](source/06_multithreading.md)
 * [NS Classes](source/06_nsclasses.md)
 * [Views](source/07_views.md)
+ * [UI Elements](source/071_uielements.md) 
 * [Other](source/08_other.md)
 * [Objective-C](source/09_obj_c.md)
  * [Objective-C Compatibility](source/091_obj_c_comp.md)
