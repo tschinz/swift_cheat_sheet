@@ -103,6 +103,8 @@ There are two styles of TableView's.
 * Basic `.Default`
 * Right Detail `Value1`
 * Left Detail `.Value2`
+* Custom
+  * You need to create a custom subclass
 
 ### Cell Accessory
 
