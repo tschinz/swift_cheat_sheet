@@ -105,6 +105,7 @@ There are two styles of TableView's.
 * Left Detail `.Value2`
 * Custom
   * You need to create a custom subclass
+  * Then you can wire up outlet etc. 
 
 ### Cell Accessory
 
@@ -113,6 +114,16 @@ Provides an convenient packaging of a `UITableView` in an MVC. The `self.view` o
 The `UITableViewController` is connected to the `UITableView` via 2 Referencing Outlets
 * dataSource
 * delegate
+
+#### Protocols
+Connection to code are made using the `UITableView's` datasource and delegate
+* delegate is used to control **how** the table is displayed (it's look and feel)
+* datasource provides **the data** that is displayed inside the cells
+##### DataSource
+
+
+##### Delegate
+
 
 
 
