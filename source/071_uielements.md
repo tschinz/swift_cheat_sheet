@@ -78,6 +78,16 @@ There are two styles of TableView's.
 * Static and Grouped
 ![UITableView Grouped](uitableview_grouped.gif)
 
+**Static**
+* Static means that these cells are set up in the storyboard only. You can edit them however you want including dragging buttons, etc. into them (and wiring up outlets to the Controller). 
+* Space is partitioned
+* E.g. Setting App
+
+**Dynamic**
+* Almost always in Plain TableView style
+* Cells in cells are templates which will be repeated for however many rows are needed to display the data in MVC's Model
+* 
+
 ### Elements
 * Elements
   * Table Header
@@ -95,6 +105,13 @@ There are two styles of TableView's.
 * Left Detail `.Value2`
 
 ### Cell Accessory
+
+### `UITableViewController`
+Provides an convenient packaging of a `UITableView` in an MVC. The `self.view` of a `UITableViewControllers` need to be a `UITable View`.
+The `UITableViewController` is connected to the `UITableView` via 2 Referencing Outlets
+* dataSource
+* delegate
+
 
 
 ##### Multi-dimensional Tables
