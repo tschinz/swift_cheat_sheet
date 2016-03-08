@@ -119,7 +119,11 @@ The `UITableViewController` is connected to the `UITableView` via 2 Referencing 
 Connection to code are made using the `UITableView's` datasource and delegate
 * delegate is used to control **how** the table is displayed (it's look and feel)
 * datasource provides **the data** that is displayed inside the cells
-##### DataSource
+
+The `UITableView Controller` automatically sets itself as the `UITableView` delegate & datasource. Your `UITableViewController` subclass will also have a property pointing to the `UITableView`
+```swift
+var tableView: UITableView // self.view in UITableViewController
+```
 
 
 ##### Delegate
