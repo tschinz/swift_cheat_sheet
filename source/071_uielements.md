@@ -134,7 +134,10 @@ Providing a UIView to draw each row. It has to be a `UITableViewCell`. The Cells
 func tableView(tv: UITableView, cellforRowatIndexPath indexPath: NSIndexPath) -> UITableViewCell {
   // get data for a cell (can be as simple as a 2dim array)
   let data = myInternalDataStructure[indexPAth.section][indexPath.row]
-  let dequeued: AnyObject = tv. dequeueReusableCellWithIdentifier("MyCell", forIndexPath:_ indexPath)
+  // get cell to use
+  let dequeued: AnyObject = tv. dequeueReusableCellWithIdentifier("MyCell", forIndexPath: indexPath)
+  
+  
   let cell= ... // create a UITableViewCell and load it up with data
   return cell
 }
