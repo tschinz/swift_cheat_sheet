@@ -87,11 +87,15 @@ There are two styles of TableView's.
   * Section Footer
   * Table Footer
 
-Cell Types
+### Cell Types
+![](uitablecell_types.png)
 * Subtitle `UITableViewCellStyle.Subtitle`
 * Basic `.Default`
 * Right Detail `Value1`
 * Left Detail `.Value2`
+
+### Cell Accessory
+
 
 ##### Multi-dimensional Tables
 Usually done via a `UINavigationController` with multiple MVC's where View is `UITableView`.
