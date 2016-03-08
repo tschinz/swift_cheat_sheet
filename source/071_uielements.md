@@ -119,12 +119,27 @@ The `UITableViewController` is connected to the `UITableView` via 2 Referencing 
 Connection to code are made using the `UITableView's` datasource and delegate
 * delegate is used to control **how** the table is displayed (it's look and feel)
 * datasource provides **the data** that is displayed inside the cells
+  * How many section in the table
+  * How many rows in each section
+  * Give me a view to use to draw each cell at a given row in a given section
 
 The `UITableView Controller` automatically sets itself as the `UITableView` delegate & datasource. Your `UITableViewController` subclass will also have a property pointing to the `UITableView`
 ```swift
 var tableView: UITableView // self.view in UITableViewController
 ```
 
+##### DataSource implementation
+Providing a UIView to draw each row. It has to be a `UITableViewCell`. The Cells are constantly reused. The `UITableView` will ask its `UITableViewDataSource` for the `UITableViewCell` for a row...
+```swift
+func tableView(tv: UITableView, cellforRowatIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+  // get data for a cell (can be as simple as a 2dim array)
+  let data = myInternalDataStructure[indexPAth.section][indexPath.row]
+  let dequeued: AnyObject = tv. dequeueReusableCellWithIdentifier("MyCell", forIndexPath:_ indexPath)
+  let cell= ... // create a UITableViewCell and load it up with data
+  return cell
+}
+
+```
 
 ##### Delegate
 
