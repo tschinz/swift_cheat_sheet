@@ -138,11 +138,27 @@ func tableView(tv: UITableView, cellforRowatIndexPath indexPath: NSIndexPath) ->
   let dequeued: AnyObject = tv. dequeueReusableCellWithIdentifier("MyCell", forIndexPath: indexPath)
   
   
-  let cell= ... // create a UITableViewCell and load it up with data
+  let cell = dequeued as UITableViewCell // because it was AnyObject
+  // For a NON Custom Cell
+  cell.textLabel?.text = "Title"
+  cell.detailTextLabel?.text = "Subtitle"
+  
+  // For a Custom Cell
+  cell.publicAPIofMyTableViewCell = data.theDataTheCellNeedsToDisplayItsCustomLabelsEtc
+  ...
+  
   return cell
 }
-
 ```
+Dynamic Table to know how many rows and sections there are
+```swift
+func numberOfSectionsInTableView(sender: UITableView) -> Int
+func tableView(sender: UITableView, numberOfRowsInSection: Int) -> Int
+```
+* Number of sections is 1 by default.
+* numberOfRowsInSections is **required**
+
+  
 
 ##### Delegate
 
